@@ -238,6 +238,7 @@
     font-size: 1rem;
     font-weight: bolder;
     opacity: 100%;
+    display: block;
   
   
   }
@@ -245,7 +246,8 @@
   .overlay p {
     text-align: center;
     margin-top: 8rem;
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
     color: #fff;
     font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.3125rem;

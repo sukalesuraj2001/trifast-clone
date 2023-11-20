@@ -7,4 +7,26 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  ngOnInit(): void {
+    
+  }
+ 
+
+
+isbacked=false
+
+  isToggled = false;
+
+  btn() {
+    this.isToggled = !this.isToggled;
+  }
+
+
+
+
+
+
+  
+  
+  
 }
