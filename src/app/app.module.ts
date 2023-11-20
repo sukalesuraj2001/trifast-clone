@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
+import { ServicesComponent } from './components/services/services.component';
+import { IndustriesComponent } from './components/industries/industries.component';
 import { MaterialModule } from './material/material.module';
 
 
@@ -21,7 +23,9 @@ import { MaterialModule } from './material/material.module';
     FooterComponent,
     CardsComponent,
     CompanyComponent,
-    InvestorsComponent
+    InvestorsComponent,
+    ServicesComponent,
+    IndustriesComponent
   ],
   imports: [
     BrowserModule,
