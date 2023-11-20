@@ -157,7 +157,7 @@ form .idea .bookmark {
 
 
 .dropdown-menu {
-    /* border: 2px solid  black; */
+    padding: 20px 0px;
     margin-top: 10px;
     margin-left: 35px;
     transform: scaleY(0);
@@ -181,10 +181,10 @@ form .idea .bookmark {
     border: none;
 }
 
-
-
-
-
+.col-md-2{
+    height: auto;
+    padding: 10px;
+}
 
 
 
