@@ -13,7 +13,11 @@ import { InvestorsComponent } from './components/investors/investors.component';
 import { ServicesComponent } from './components/services/services.component';
 import { IndustriesComponent } from './components/industries/industries.component';
 import { MaterialModule } from './material/material.module';
+
+import { SustainabilityComponent } from './components/sustainability/sustainability.component';
+
 import { ContactComponent } from './components/contact/contact.component';
+
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { ContactComponent } from './components/contact/contact.component';
     InvestorsComponent,
     ServicesComponent,
     IndustriesComponent,
+
+    SustainabilityComponent
+
     ContactComponent
+
   ],
   imports: [
     BrowserModule,
