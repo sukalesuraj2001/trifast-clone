@@ -117,14 +117,14 @@
   }
   
   .screw-rectangle {
-    width: 50%;
+    width: 753px;
     height: 80vh;
     background-color: rgb(41, 129, 193);
     position: absolute;
-    top: 175%;
+    top: 143%;
     right: 0;
     clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
-    transform: translateY(-40%);
+    /* transform: translateY(-40%); */
     opacity: 0.9;
     /* z-index: 999; */
     
