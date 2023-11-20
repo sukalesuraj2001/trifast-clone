@@ -9,7 +9,7 @@
 
 .navbar-nav {
     margin-top: 8rem;
-    margin-left: 17rem;
+    margin-left: 19%;
 
 }
 
@@ -121,10 +121,10 @@ form .idea .bookmark {
     width: 95%;
     transform: scaleY(1);
     transform-origin: top;
-    position: relative;
+    position: absolute;
     position: fixed;
     float: none;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 
 
 
@@ -157,7 +157,7 @@ form .idea .bookmark {
 
 
 .dropdown-menu {
-    /* border: 2px solid  black; */
+    padding: 20px 0px;
     margin-top: 10px;
     margin-left: 35px;
     transform: scaleY(0);
@@ -181,10 +181,10 @@ form .idea .bookmark {
     border: none;
 }
 
-
-
-
-
+.col-md-2{
+    height: auto;
+    padding: 10px;
+}
 
 
 
