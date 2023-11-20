@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&family=PT+Serif&display=swap");
+
+
+.hero-image {
+  width: 100%;
+  height: 650px;
+  background-image: url("https://trfastenings.blob.core.windows.net/sitecontent/5642de1a9dd54689b65fe418ceabe9ac.png");
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+  overflow: auto;
+  /* margin-top: 200px; */
+}
+
+.hero-image-triangle {
+  width: 920px;
+  height: 450px;
+  background-color: white;
+  margin: 0;
+  margin-top: 200px;
+  padding-top: 2rem;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  opacity: 0.9;
+}
+.triangle-text {
+  width: 350px;
+  margin-left: 60px;
+  margin-top: 180px;
+  padding: 10px;
+}
+.triangle-text h3 {
+  color: purple;
+  font-weight: 500;
+}
+.triangle-text h1 {
+  color: #002d74;
+  font-weight: 400;
+  font-size: 42px;
+}
+.hero-image-bottom {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0;
+  padding: 20px 0px;
+  background-color: #002d74;
+}
+.bottom-text {
+  width: 840px;
+  height: auto;
+  font-size: 28px;
+  color: white;
+  margin: 30px auto 30px auto;
+  font-weight: 600;
+}
+.transparent-btn {
+  background-color: transparent;
+  width: auto;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: white;
+  margin-top: 10px;
+  color: white;
+}
+.transparent-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+/* /////////////////// second section//////////////////////// */
+.main {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  /* border: 1px solid red; */
+}
+.inner {
+  width: 64%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.inner h1 {
+  font-weight: 500;
+  color: black;
+  height: auto;
+  line-height: 30px;
+}
+.inner h3 {
+  font-weight: 400;
+  line-height: 20px;
+}
+.video-section {
+  width: 64%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.section-first {
+  width: 70%;
+  margin: auto;
+}
+
+/* /////////////// video section /////////////// */
+.section-second iframe {
+  margin: 20px 0px;
+  width: 94%;
+  height: 500px;
+}
+
+/* ////////       fourth section       //////// */
+.img-section {
+  width: 94%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img-section div {
+  width: 32%;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.triangle {
+  width: 100% !important;
+  height: 250px !important;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #002d74;
+  opacity: 0.9;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  color: white;
+}
+.triangle h3 {
+  display: none;
+}
+.triangle h5 {
+  padding-top: 180px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+.img1:hover .triangle {
+  height: 100% !important;
+  top: 0 !important;
+  margin-top: 0;
+  transition-duration: 0.1s;
+  clip-path: none;
+}
+.img1:hover h3 {
+  display: block;
+  padding: 50px;
+}
+.img1:hover h5 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .hero-image-triangle {
+    background: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 400px;
+    clip-path: none;
+    background-color: white;
+    padding: 0;
+  }
+  .triangle-text {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .hero-image-bottom {
+    padding: 5px;
+  }
+  .bottom-text {
+    width: 90%;
+    font-size: 18px;
+    margin: 10px auto;
+    font-weight: 400;
+  }
+  .main {
+    margin: 10px 0px;
+  }
+  .inner {
+    width: 90%;
+    padding: 10px 5px;
+  }
+  .inner h4 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .inner h5 {
+    font-size: 16px;
+  }
+  .video-section {
+    width: 90%;
+  }
+  .section-second iframe {
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .section-first {
+    width: 90%;
+  }
+  .section-first h2 {
+    font-size: 32px;
+  }
+  .img-section div {
+    width: 100%;
+  }
+  .triangle h5 {
+    padding-left: 20px;
+  }
+}
