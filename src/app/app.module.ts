@@ -7,12 +7,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './components/footer/footer.component';
-import {MatIconModule} from '@angular/material/icon';
 import { CardsComponent } from './cards/cards.component';
 import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
 import { ServicesComponent } from './components/services/services.component';
 import { IndustriesComponent } from './components/industries/industries.component';
+import { MaterialModule } from './material/material.module';
 
 
 @NgModule({
@@ -31,7 +31,8 @@ import { IndustriesComponent } from './components/industries/industries.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+   
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
