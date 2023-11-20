@@ -13,6 +13,7 @@ import { InvestorsComponent } from './components/investors/investors.component';
 import { ServicesComponent } from './components/services/services.component';
 import { IndustriesComponent } from './components/industries/industries.component';
 import { MaterialModule } from './material/material.module';
+import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { MaterialModule } from './material/material.module';
     CompanyComponent,
     InvestorsComponent,
     ServicesComponent,
-    IndustriesComponent
+    IndustriesComponent,
+    SustainabilityComponent
   ],
   imports: [
     BrowserModule,

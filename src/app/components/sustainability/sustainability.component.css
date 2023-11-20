@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+/* ------------------Main------------------- */
+.main {
+    /* border: 1px solid green; */
+    height: auto;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 100%;
+}
+.main-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.triangles {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+    height: 70%;
+
+}
+.triangle-texts {
+    /* border: 1px solid black; */
+    margin-top: 23%;
+    margin-left: 7%;
+    width: 35%;
+}
+.triangle-texts h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #642682;
+    font-weight: 700;
+}
+.triangle-texts h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    color: #002d74;
+    font-weight: 600;
+}
+.triangle-texts p {
+    font-size: 1rem;
+    color: #000;
+}
+/* ----------------Text------------------- */
+.text {
+    /* border: 1px solid red; */
+    background-color: #002d74;
+    color: #fff;
+    padding: 66px 0 66px;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.inside-text {
+    /* border: 1px solid red; */
+    width: 55%;
+    margin: auto;
+}
+.text h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+/* ---------container----------- */
+    .containers {
+        /* border: 2px solid green; */
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 1.5%;
+    }
+    .left {
+        /* border: 1px solid blue; */
+        width: 49.5%;
+        background-color: rgb(26,122,191);
+        margin-bottom: 1%;
+        position: relative;
+    }
+    .left-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .left-text {
+        background-color: rgb(26,122,191);
+        padding: 5%;
+    }
+    .left-text h3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        border-bottom: 1px solid white;
+        display: inline-block;
+        font-weight: 500;
+    }
+    .left-text h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .left-text p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .left-text button {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid white;
+        background-color: rgb(26,122,191);
+        border-radius: 5px;
+        padding: 1.5% 1.5%;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .left-text button:hover {
+        background-color: white;
+        color: black;
+    }
+    .arrow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: white;
+    }
+    :host {
+        .mat-icon {
+            /* border: 1px solid red; */
+            font-size: 2rem;
+            height: auto;
+            width: 40px;
+            margin-bottom: 0;
+        }
+    }
+    /* ----  */
+    .right {
+        width: 49.5%;
+        background-color: #009640;
+        margin-bottom: 1%;
+        position: relative;
+    }
+    .right-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .right-text {
+        padding: 5%;
+    }
+    .right-text h3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        border-bottom: 1px solid white;
+        display: inline-block;
+        font-weight: 500;
+    }
+    .right-text h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .right-text p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .right-text button {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid white;
+        background-color: #009640;
+        border-radius: 5px;
+        padding: 1.5% 1.5%;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .right-text button:hover {
+        background-color: white;
+        color: black;
+    }
+    /* ----------cards--------- */
+    .cards {
+        /* border: 1px solid green; */
+        display: flex;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .boxes {
+        width: 24%;
+        margin-right: 1%;
+        padding: 2%;
+        position: relative;
+        margin-bottom: 1%;
+    }
+    .boxes4 {
+        width: 25%;
+        /* margin-right: 1%; */
+        padding: 2%;
+        position: relative;
+        margin-bottom: 1%;
+    }
+    .boxes-img img , .boxes4-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .boxes h3, .boxes4 h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        display: inline-block;
+        border-bottom: 1px solid white;
+        margin-top: 3%;
+    }
+    .boxes p,.boxes4 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .boxes button,.boxes4 button {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid white;
+        background-color: #009640;
+        border-radius: 5px;
+        padding: 3% 3%;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .boxes button:hover, .boxes4 button:hover {
+        background-color: white !important;
+        color: black;
+    }
+    /* ---  -----------Flex------------------------  */
+.containers1 {
+    /* border: 1px solid green; */
+    width: 100%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ------second------- */
+.second {
+    /* border: 1px solid red; */
+    display: flex;
+    height: auto;
+}
+.left2 {
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 65vh;
+}
+.left2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right2 {
+    /* border: 1px solid red; */
+    width: 50%;
+    background-color: #009640;
+    padding: 5% 10%;
+    padding-left: 7%;
+}
+.right2 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}
+.right2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.3rem;
+    margin: 6% 0%; 
+    line-height: 35px;
+}
+.right2  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 25px;
+    /* margin-bottom: 4%; */
+}
+.right2 button {
+    border: 1px solid white;
+    background-color: #009640;
+    color: white;
+    margin: 2% 0%;
+    border-radius: 5px;
+    padding: 2.5%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+.right2 button:hover {
+    background-color: white;
+    color: black;
+} 
+/* ------------Inverstor tools---------------- */
+
+.links-name {
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+.links-name h3{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid rgb(173, 168, 168);
+    width: 50%;
+    padding-bottom: 2%;
+}
+/* -- */
+.links-cards {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.box2 {
+    /* border: 1px solid red; */
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+
+.box2 h6, .box3 h6,.box6 h6  {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.box2 h3, .box3 h3,.box6 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 30px;
+}
+.box2 h3:hover, .box3 h3:hover,.box6 h3:hover {
+    text-decoration: underline;
+}
+
+.box3 {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+.box6 {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+@media (max-width:1000px) { 
+    .main-img {
+        height: 100%;
+    }
+    .triangle-texts {
+        width: 40%;
+    }
+    /* ----------------Text------------------- */
+    .inside-text {
+        padding: 2% 0%;
+        width: 70%;
+        margin: 0;
+    }
+    .text h3{
+        font-size: 1.4rem;
+    }
+    .text {
+    padding: 2% 1%;
+    }
+    
+}
+@media (max-width:760px) {
+    /* ---------Main---------- */
+    .triangles {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .main-img {
+        height: 100%;
+    }
+    .triangle-texts {
+        margin: 0;
+        width: 100%;
+        padding: 3%;
+    }
+    /* ----------------Text------------------- */
+    .inside-text {
+        padding: 2%;
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .text h3{
+        font-size: 1.3rem;
+    }
+    .text {
+    padding: 2% 1%;
+    }
+    /* -----containers------ */
+    .containers {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    /* ----------cards--------- */
+    .cards {
+        flex-direction: column;
+    }
+    .boxes, .boxes4 {
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 3%;
+    }
+    .boxes button,.boxes4 button {
+        padding: 2% 2%;
+        font-size: 1.1rem;
+    }
+    .boxes-img,.boxes4-img  {
+        /* border: 1px solid red; */
+        width: 60%;
+        height: 100%;
+    }
+    .boxes-img img,.boxes4-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+        /* ---  -----------Flex------------------------  */
+    .second {
+        flex-direction: column;
+    }
+    .left2 {
+        width: 100%;
+    }
+    .right2{
+        width: 100%;
+        padding: 3% 3%;
+    }
+    .left2 {
+        height: auto;
+        width: 100%;
+    }
+    .right2 h2{
+        font-size: 2rem;
+        margin: 3% 0%; 
+    }
+    .right2 button {
+        padding: 2%;
+        font-size: 1.1rem;
+    }
+    /* ---------Investor tools------- */
+    .links-name h3{
+        width: 80%;
+    }
+    .links-cards {
+        flex-direction: column;
+    }
+    .box2 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box3 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box6 {
+        width: 100%;
+        padding: 5%;
+    }
+
+}

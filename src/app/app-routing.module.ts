@@ -5,6 +5,7 @@ import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
 import { ServicesComponent } from './components/services/services.component';
 import { IndustriesComponent } from './components/industries/industries.component';
+import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:"investor",component:InvestorsComponent},
   {path:"service",component:ServicesComponent},
   {path:"industries",component:IndustriesComponent},
+  {path:"sustainability",component:SustainabilityComponent},
 ];
 
 @NgModule({
