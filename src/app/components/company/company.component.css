@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+/* ------------------Main------------------- */
+.main {
+    /* border: 1px solid green; */
+    height: auto;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-img {
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 100%;
+}
+.main-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.triangles {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+    height: 70%;
+
+}
+.triangle-texts {
+    /* border: 1px solid #008000; */
+    margin-top: 25%;
+    margin-left: 5%;
+    width: auto;
+}
+.triangle-texts h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #642682;
+    font-weight: 600;
+}
+.triangle-texts h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9rem;
+    color: #002d74;
+    font-weight: 600;
+}
+.triangle-texts p {
+    font-size: 1.1rem;
+    color: #000;
+}
+/* ----------------greetings End------------------- */
+/* ----------------Text------------------- */
+.text {
+    /* border: 1px solid red; */
+    background-color: #002d74;
+    color: #fff;
+    padding: 66px 0 66px;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.inside-text {
+    /* border: 1px solid red; */
+    /* padding-left: 20%; */
+    padding: 0px 20%;
+}
+.inside-text strong{
+    color: #00a9b3;
+}
+.inside-text strong:hover{
+    color: #04969d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+/* ----------------Cards------------------- */
+
+.cards {
+    /* border: 2px solid green; */
+    display: flex;
+    height: auto !important;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+.left {
+    /* border: 2px solid blue; */
+    display: flex;
+    height: auto !important;
+    width: 50%;
+    flex-wrap: wrap;
+    color: white;
+}
+.box {
+    /* border: 1px solid red; */
+    width: 48%;
+    /* height: 490px; */
+    /* height: 60% !important; */
+    height: auto;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 30px;
+    position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+
+:host {
+  .mat-icon {
+    /* border: 1px solid red; */
+    font-size: 40px;
+    font-weight: 100;
+    height: auto;
+    width: 40px;
+    margin-bottom: 0;
+  }
+}
+
+.box h6, .box1 h6  {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.box h3,.box1 h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.box1 {
+    /* border: 1px solid red; */
+    height: 490px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+.box p,.box1 p  {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.left button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+.left button:hover {
+    background-color: white !important;
+    color: black;
+}
+.right{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: auto;
+    background-color: #38a2dc;
+    color: white;
+    position: relative;
+    margin-bottom: 16px;
+}
+.logo-img {
+    position: absolute;
+    bottom: 0;
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* -------------links--------------- */
+.links-name {
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+.links-name h3{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid rgb(173, 168, 168);
+    width: 50%;
+    padding-bottom: 2%;
+}
+/* -- */
+.links-cards {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.box2 {
+    /* border: 1px solid red; */
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+
+.box2 h6, .box3 h6,.box6 h6  {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.box2 h3, .box3 h3,.box6 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+}
+.box2 h3:hover, .box3 h3:hover,.box6 h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box3 {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+.box6 {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+/* ------------------corouel------------------- */
+.corousel {
+    /* border: 1px solid green; */
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    height: auto;
+}
+.corousel-img {
+    width: 100%;
+    height: 100%;
+}
+.corousel-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.triangle {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    max-width: 100%;
+    height: 70%;
+    height: auto;
+}
+.triangle-text {
+    /* border: 1px solid red; */
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+    width: auto;
+}
+.triangle-text h3{
+    font-size: 30px;
+    cursor: pointer;
+}
+.triangle-text p {
+    margin-top: 2%;
+    /* font-size: 18px; */
+    font-size: 1.2rem;
+    line-height: 25px;
+    color: #000;
+}
+.triangle-text button {
+    margin-top: 2%;
+    color: #fff;
+    background-color: #00a9b3;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.em{
+    height: 800px;
+}
+@media (max-width:1000px) { 
+    .main-img {
+        height: 100%;
+    }
+    /* ----------------Text------------------- */
+    .inside-text {
+        padding: 5%;
+    }
+    .text h3{
+        font-size: 1.4rem;
+    }
+    .text {
+    padding: 2% 1%;
+    }
+    /* -----------------corousel----------------------- --> */
+    .triangle {
+        width: 100%;
+    }
+}
+
+@media (max-width:760px) {
+    /* ---------Main---------- */
+    .triangles {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .main-img {
+        height: 100%;
+    }
+    .triangle-texts {
+        margin: 0;
+        width: 100%;
+        padding: 3%;
+    }
+    /* ----------------Text------------------- */
+    .inside-text {
+        padding: 5%;
+    }
+    .text h3{
+        font-size: 1.3rem;
+    }
+    .text {
+    padding: 2% 1%;
+    }
+    /* ----------------Cards------------------- */
+    .cards {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right{
+        flex-direction: column;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        margin-right: 0;
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    /* ---------corouel---------- */
+    .triangle {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .triangle-text {
+        margin: 0;
+        width: 100%;
+        padding: 3%;
+    }
+    /* -------------links------- */
+    .links-name h3{
+        width: 80%;
+    }
+    .links-cards {
+        flex-direction: column;
+    }
+    .box2 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box3 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box6 {
+        width: 100%;
+        padding: 5%;
+    }
+}
+

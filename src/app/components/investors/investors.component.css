@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+/* ------------------Main------------------- */
+.main {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    height: auto;
+}
+.corousel-img {
+    width: 100%;
+    max-height: 80%;
+}
+.corousel-img img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.triangle {
+    /* border: 1px solid red; */
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+    height: auto;
+
+}
+.triangle-text {
+    margin-top: 22%;
+    margin-left: 7%;
+    margin-right: 40%;
+    margin-bottom: 8%;
+    width: auto;
+}
+.triangle-text h3{
+    font-size: 1.9rem;
+    margin-top: 2%;
+}
+/* ----------------Text------------------- */
+.text {
+    /* border: 1px solid red; */
+    background-color: #002d74;
+    color: #fff;
+    padding: 66px 0 66px;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.inside-text {
+    padding: 0px 19%;
+}
+.text h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.em {
+    height: 700px;
+}
+/* ----------company---------- */
+.company {
+    /* border: 1px solid green; */
+    padding: 1.5% 19%;
+    font-family: 'Open Sans', sans-serif;
+}
+.company h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.company p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+.company button {
+    font-family: 'Open Sans', sans-serif;
+    color: #00a9b3;
+    font-size: 1rem;
+    font-weight: 600;
+    /* border: none; */
+    border: 1px solid #00a9b3;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.5% 1.5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+.company button:hover {
+    background-color: #00a9b3;
+    color: #fff;
+}
+
+/* -------------cards--------------- */
+.link {
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2% 0%;
+}
+/* -- */
+.links-card {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.box {
+    /* border: 1px solid red; */
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    padding: 2%;
+    position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+:host {
+  .mat-icon {
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    height: auto;
+    width: 40px;
+    margin-bottom: 0;
+  }
+}
+.box h6,.box4 h6, .box6 h6   {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 6px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.box h3,.box4 h3,.box6 h3 {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    font-weight: 600;
+}
+.box4 {
+    width: 25%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    padding: 2%;
+    position: relative;
+}
+.box6 {
+    width: 25%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    padding: 2%;
+    position: relative;
+}
+.links-card button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+    font-size: 1rem;
+    padding: 4% 5%;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+.links-card button:hover {
+    background-color: white !important;
+    color: black;
+}
+/* ---  -----------Flex------------------------  */
+.containers {
+    /* border: 1px solid green; */
+    width: 100%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+/* -------first------ */
+.first {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 2%;
+}
+.left {
+    /* border: 1px solid blue; */
+    width: 50%;
+    background-color: #1a7abf;
+    padding: 5% 8%;
+    padding-left: 10%;
+}
+.right {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+}
+.left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.3rem;
+    margin: 5% 0%; 
+}
+.left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-bottom: 4%;
+}
+
+.left button {
+    border: 1px solid white;
+    background-color: #1a7abf;
+    color: white;
+    margin: 5% 0%;
+    border-radius: 5px;
+    padding: 2.5%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+.left button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ------second------- */
+.second {
+    /* border: 1px solid red; */
+    display: flex;
+}
+.right2 {
+    /* border: 1px solid blue; */
+    width: 50%;
+    background-color: #00a9b3;
+    padding: 5% 8%;
+    padding-left: 10%;
+}
+.left2 {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.left2 {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.left2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right2 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+}
+.right2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.3rem;
+    margin: 5% 0%; 
+}
+.right2  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-bottom: 4%;
+}
+.right2 button {
+    border: 1px solid white;
+    background-color: #00a9b3;
+    color: white;
+    margin: 5% 0%;
+    border-radius: 5px;
+    padding: 2.5%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+.right2 button:hover {
+    background-color: white;
+    color: black;
+}
+/* ------------Inverstor tools---------------- */
+
+.links-name {
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+.links-name h3{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid rgb(173, 168, 168);
+    width: 50%;
+    padding-bottom: 2%;
+}
+/* -- */
+.links-cards {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.box2 {
+    /* border: 1px solid red; */
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+
+.box2 h6, .box3 h6,.box6 h6  {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.box2 h3, .box3 h3,.box6 h3 {
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 30px;
+}
+.box2 h3:hover, .box3 h3:hover,.box6 h3:hover {
+    text-decoration: underline;
+}
+
+.box3 {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+.box6 {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-bottom: 1%;
+    height: 260px;
+    color: white;
+    /* padding: 30px; */
+    padding: 2%;
+    position: relative;
+}
+
+
+@media (max-width:1000px) {
+    .corousel-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:760px) {
+    /* ---------Main---------- */
+    .triangle {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .corousel-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .triangle-text {
+        margin: 0;
+        width: 100%;
+        padding: 3%;
+    }
+    .triangle-text h3{
+    font-size: 1.7rem;
+    }
+
+    /* --------text----------- */
+    /* .text {
+    padding: 55px 0 55px;
+    } */
+    .inside-text {
+        padding: 5%;
+    }
+    .text h3{
+        font-size: 1.3rem;
+    }
+    .text {
+    padding: 2% 1%;
+    }
+    /* ----------company---------- */
+    .company {
+        padding: 5% 5%;
+    }
+    .company p {
+        font-size: 1.1rem;
+        margin-bottom: 4%;
+        line-height: 22px;
+    }
+    /* -------Cards------- */
+    .links-card {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        padding: 4%;
+    }
+    .box4 {
+        width: 100%;
+        padding: 4%;
+    }
+    .box6 {
+        width: 100%;
+        padding: 4%;
+    }
+    .links-card button {
+        font-size: 1.2rem;
+        padding: 2% 3%;
+    }
+    /* --------------Flex------------------------  */
+    /* -----first------  */
+    .first {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+        order: 2;
+        padding: 4%;
+    }
+    .right {
+        width: 100%;
+        order: 1;
+    }
+    .left h3{
+        font-size: 1rem;
+    }
+    .left h2{
+        font-size: 2rem;
+    }
+    .left p{
+        font-size: 1.1rem;
+    }
+    .left button {
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    /* --second--- */
+    .second {
+        flex-direction: column;
+    }
+    .left2 {
+        width: 100%;
+    }
+    .right2 {
+        width: 100%;
+        padding: 4%;
+    }
+    .right2 h3{
+        font-size: 1rem;
+    }
+    .right2 h2{
+        font-size: 2rem;
+    }
+    .right2 p{
+        font-size: 1.1rem;
+    }
+    .right2 button {
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    /* ---------Investor tools------- */
+    .links-name h3{
+        width: 80%;
+    }
+    .links-cards {
+        flex-direction: column;
+    }
+    .box2 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box3 {
+        width: 100%;
+        padding: 5%;
+    }
+    .box6 {
+        width: 100%;
+        padding: 5%;
+    }
+}
