@@ -9,7 +9,7 @@
 
 .navbar-nav {
     margin-top: 8rem;
-    margin-left: 17rem;
+    margin-left: 20%;
 
 }
 
@@ -121,10 +121,10 @@ form .idea .bookmark {
     width: 95%;
     transform: scaleY(1);
     transform-origin: top;
-    position: relative;
+    position: absolute;
     position: fixed;
     float: none;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
 
 
 

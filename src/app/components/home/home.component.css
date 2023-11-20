@@ -117,18 +117,18 @@
   }
   
   .screw-rectangle {
-    width: 753px;
-    height: 80%;
+    width: 50%;
+    height: 80vh;
     background-color: rgb(41, 129, 193);
     position: absolute;
-    top: 183%;
+    top: 175%;
     right: 0;
-    transform: translateY(-50%);
     clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
+    transform: translateY(-40%);
     opacity: 0.9;
-    z-index: 999;
-  
-  
+    /* z-index: 999; */
+    
+    
   }
   
   .screw-rectangle .products h2 {
