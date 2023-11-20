@@ -162,7 +162,7 @@ form .idea .bookmark {
     margin-left: 35px;
     transform: scaleY(0);
     transform-origin: top;
-    position: absolute;
+    position: relative;
     /* z-index: -2; */
 
     /* padding: 60px 0 67px 0; */

@@ -239,6 +239,10 @@ word-wrap: break-all;
         flex-direction: column;
         margin-left: 0;
     }
+    .legal{
+        display: none;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -278,5 +282,8 @@ word-wrap: break-all;
     .img{
         flex-direction: column;
         margin-left: 0;
+    }
+    .legal{
+        display: none;
     }
 }

@@ -7,10 +7,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './components/footer/footer.component';
-import {MatIconModule} from '@angular/material/icon';
 import { CardsComponent } from './cards/cards.component';
 import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
+import { MaterialModule } from './material/material.module';
 
 
 @NgModule({
@@ -27,7 +27,8 @@ import { InvestorsComponent } from './components/investors/investors.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+   
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
