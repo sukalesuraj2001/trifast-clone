@@ -1,0 +1,282 @@
+
+
+.line{
+    height: 0.5rem;
+    background-color: rgb(174,154,100);
+}
+.footer-left{
+   margin-left: 2rem;
+    /* border: 2px solid red; */
+}
+
+.footer{
+    margin-top: 1.5rem;
+}
+.footer .footer-img{
+    /* left: 5rem; */
+    margin-top: 1rem;
+}
+.footer-img .text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+color: #00a9b3;
+}
+.footer-img .text .purpose p{
+color: black;
+font-style: normal;
+word-wrap: break-all;
+}
+.purpose .email{
+    margin-top: 1.5rem;
+}
+.purpose .email p{
+    line-height: 0.5rem;
+}
+.purpose .email p a:hover{
+    text-decoration: none;
+}
+.connect{
+    margin-top: 3rem;
+}
+
+.connect hr {
+    width: 45%;
+    border: 1px solid rgb(7, 0, 0); /* Set the border style */
+    color: black;
+}
+
+.icon{
+    margin-top: -0.1rem;
+}
+.icon img{
+    border: none;
+    margin: 0 5px;
+}
+
+
+/* second section start */
+
+
+.branches{
+    margin-top: 2rem;
+}
+.branches h1{
+
+}
+.branches-img {
+    display: flex;
+    flex-direction: row;
+}
+.branches-img img{
+    border: none;
+} 
+
+/* menus section start */
+.menus{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-left: -3rem;
+   
+
+    
+}
+.menus h2 a,.menus-two h2 a,.menus-three h2 a{
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.menus h2 a:hover{
+    /* color: black; */
+    text-decoration: underline;
+}
+.menus hr,
+.menus-two hr,
+.menus-three hr {
+    border: 1px solid rgb(5, 0, 0);
+    margin: 10px 0;
+    width: calc(100% + 90px); /* Set the desired width with space around (adjust 20px as needed) */
+    box-sizing: border-box; /* Ensure the border is included in the width calculation */
+}
+
+.menus-two{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: -3rem;
+}
+.menus-two h2 a:hover{
+    text-decoration: underline;
+
+}
+.menus-three{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -4rem;
+   
+    /* flex-direction: row; */
+
+}
+.menus-three h2 a:hover{
+    text-decoration: underline;
+
+}
+.knowledge a{
+    left: 2rem;
+}
+.end {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* height: 100vh;  */
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center the images and newsletter vertically */
+}
+
+.end .img img {
+    height: 27vh;
+    border: none;
+}
+
+.newsletter {
+    height: 10vh;
+   background-color: blue;
+    width: 200%;
+}
+
+.newsletter h3 {
+    text-align: center; /* Center the text horizontally */
+    /* margin: 10px 0; */
+}
+
+
+/* legal section start */
+
+.legal{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-bottom: 5rem;
+    
+}
+
+
+.legal h4 {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.legal h4::after {
+    content: '';
+    display: inline-block;
+    border-left: 1px solid black;
+    height: 70%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .footer-left{
+        margin-left: 0;
+         /* border: 2px solid red; */
+     }
+     .branches-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .menus{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus hr{
+        width: 70%;
+    }
+    .menus-two{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus-two hr{
+        width: 70%;
+    }
+   .menus-three{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus-three hr{
+        width: 70%;
+    }
+    .end{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .img{
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-left{
+        margin-left: 0;
+         /* border: 2px solid red; */
+     }
+     .branches-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .menus{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus hr{
+        width: 70%;
+    }
+    .menus-two{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus-two hr{
+        width: 70%;
+    }
+   .menus-three{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .menus-three hr{
+        width: 70%;
+    }
+    .end{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .img{
+        flex-direction: column;
+        margin-left: 0;
+    }
+}

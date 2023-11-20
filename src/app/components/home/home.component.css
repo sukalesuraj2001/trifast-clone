@@ -1,0 +1,1304 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .speaker {
+    text-align: center;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+    height: 7.5vh;
+  
+    background-color: #38a2dc;
+  }
+  
+  .speaker img {
+    margin-top: 4rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+  }
+  
+  .speaker p {
+    color: white;
+  }
+  
+  
+  
+  
+  
+  /* crousel start */
+  
+  
+  
+  
+  
+  .triangle-container {
+    position: relative;
+  }
+  
+  .triangle {
+    width: 1300px;
+    height: 449px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 310px;
+    left: -10rem;
+    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+    opacity: 0.9;
+  }
+  
+  .triangle-text h1 {
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: black;
+    font-size: 2rem;
+  }
+  
+  .triangle-text p {
+    position: absolute;
+    top: 73%;
+    left: 52%;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: black;
+    /* font-size: 2rem;  */
+  }
+  
+  .triangle-text button {
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background-color: #00a9b3;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  /* screw img section start */
+  
+  
+  .screw-img img {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .screw-rectangle {
+    width: 753px;
+    height: 566px;
+    background-color: rgb(41, 129, 193);
+    position: absolute;
+    top: 183%;
+    right: 0;
+    transform: translateY(-50%);
+    clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
+    opacity: 0.9;
+    z-index: 999;
+  
+  
+  }
+  
+  .screw-rectangle .products h2 {
+    margin-top: 7rem;
+    margin-left: 8rem;
+  }
+  /* .screw-rectangle .products .ruler{
+    width: 20%;
+  }
+   */
+  /* industry text area :start */
+  
+  .industry {
+    text-align: center;
+  }
+  
+  .industry h1 {
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+  .industry p {
+    text-align: left;
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    /* Adjust the value based on your preference */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* overlay effect */
+  
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 70px;
+  
+  }
+  
+  .box {
+    flex: 1;
+    align-items: center;
+    margin: 10px;
+    width: 465px;
+    height: 322px;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    width: 465px;
+    height: 322px;
+  }
+  
+  
+  
+  
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    width: 465px;
+    height: 322px;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 462px;
+    width: 465px;
+    height: 322px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(52, 148, 201) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay p {
+    text-align: center;
+    margin-top: 8rem;
+    visibility: hidden;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay p {
+  
+    margin-top: 5rem;
+  visibility: visible;
+  
+  }
+  
+  /* overlay blue start */
+  
+  .overlay-blue {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(6, 158, 168) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay-blue h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay-blue p {
+    text-align: center;
+    margin-top: 5rem;
+    display: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay-blue {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay-blue h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay-blue p {
+  
+    display: block;
+  
+  }
+  
+  /* overlay yellow start */
+  
+  .overlay-yellow {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(221, 142, 26) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay-yellow h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay-yellow p {
+    text-align: center;
+    margin-top: 5rem;
+    display: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay-yellow {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay-yellow h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay-yellow p {
+  
+    display: block;
+  
+  }
+  
+  
+  /* overlay voilet start */
+  .overlay-voilet {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(103, 48, 128) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay-voilet h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay-voilet p {
+    text-align: center;
+    margin-top: 5rem;
+    display: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay-voilet {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay-voilet h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay-voilet p {
+  
+    display: block;
+  
+  }
+  
+  
+  /* overlay darkblue start */
+  
+  
+  
+  .overlay-blue-dark {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(17, 57, 119) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay-blue-dark h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay-blue-dark p {
+    text-align: center;
+    margin-top: 5rem;
+    display: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay-blue-dark {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay-blue-dark h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay-blue-dark p {
+  
+    display: block;
+  
+  }
+  
+  
+  /* overlay sky start */
+  
+  
+  
+  .overlay-sky {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(27, 114, 176) 50%, rgba(255, 255, 255, 0.225) 50%);
+    /* opacity: 0.8; */
+    /* transition: opacity .25s ease-in-out; */
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+    /* z-index: 3; */
+  
+  }
+  
+  .overlay-sky h5 {
+    margin-top: 15rem;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    opacity: 100%;
+  
+  
+  }
+  
+  .overlay-sky p {
+    text-align: center;
+    margin-top: 5rem;
+    display: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.3125rem;
+    opacity: 100%;
+  
+  }
+  
+  .image-container:hover .overlay-sky {
+    top: 0;
+    background-position: 10% 100%;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  
+  }
+  
+  .image-container:hover .overlay-sky h5 {
+  
+    display: none;
+  
+  }
+  
+  .image-container:hover .overlay-sky p {
+  
+    display: block;
+  
+  }
+  
+  
+  
+  .ruler {
+    /* height: 1px; */
+    /* background-color: #ffff; */
+    color: #ffff;
+    opacity: 100%;
+    width: 55%;
+    margin-left: 8rem;
+    align-items: center;
+  }
+  
+  .rulers {
+    opacity: 0.1;
+  }
+  
+  .products h1 {
+    margin-left: 8rem;
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  
+  .products p {
+    margin-left: 8rem;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .button {
+    /* text-align: center; */
+    margin-left: 8rem;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  
+  /* invester section start */
+  
+  
+  .investor {
+    height: 562px;
+  }
+  
+  .investor img {
+    height: 562px;
+  }
+  
+  .relations {
+    background-color: rgb(0, 169, 179);
+  }
+  
+  .relations h3 {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    margin-left: 8rem;
+    margin-top: 84px;
+  }
+  
+  .relations p,
+  h2 {
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: white;
+    margin-left: 8rem;
+  }
+  
+  
+  
+  /* nkowledge section start */
+  
+  
+  .triangle2 {
+    width: 1400px;
+    height: 549px;
+    background-color: rgb(14, 12, 12);
+    margin: 0;
+    position: relative;
+    top: -35.5rem;
+    left: -15rem;
+    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+    opacity: 0.8;
+  }
+  
+  .triangle2 .text h3 {
+  
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    color: rgb(210, 209, 59);
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  
+    font-size: 1rem;
+  
+  }
+  
+  .triangle2 .text hr {
+  
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    color: rgb(149, 209, 47);
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  
+    font-size: 5rem;
+  
+  }
+  
+  .ruler3 {
+  
+    position: absolute;
+    height: 1px;
+    margin-top: 15.3rem;
+    background-color: rgb(210, 209, 59);
+    opacity: 100%;
+    width: 25rem;
+    margin-left: 28.5rem;
+    align-items: center;
+  }
+  
+  .triangle2 h1 {
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 32%;
+    font-size: 2.125rem;
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+  }
+  
+  .triangle2 p {
+    position: absolute;
+    color: white;
+    top: 65%;
+    left: 32%;
+    font-size: 1rem;
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+  }
+  
+  .triangle2 button {
+    position: absolute;
+    background-color: rgb(0, 169, 179);
+    top: 85%;
+    left: 32%;
+    font-size: 1rem;
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+  }
+  
+  
+  .triangle2 .buttons .btn:hover {
+    background-color: rgb(3, 104, 109);
+    color: #ffff;
+  }
+  
+  
+  /* service section start */
+  
+  .service {
+    margin-top: -33rem;
+  }
+  
+  .service img {
+    width: 100%;
+  }
+  
+  .triangle3 {
+    width: 1400px;
+    height: 749px;
+    background-color: rgb(239, 237, 232);
+    margin: 0;
+    position: relative;
+    top: -46.8rem;
+    left: 7.3rem;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+    opacity: 0.8;
+  }
+  
+  .triangle3 .service-text {
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+  }
+  
+  .triangle3 .service-text h3 {
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 600;
+    margin: 0;
+    color: rgb(100,38,130);
+    font-size: 1rem;
+  }
+  
+  .triangle3 .service-text hr.ruler3 {
+    width:35rem;
+    /* border: 2px solid black; */
+    margin: 6px auto;
+    color: rgb(100,38,130);
+    margin-left: 16rem;
+  }
+  
+  .triangle3 .service-text h1 {
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 10px 0;
+    margin-left: 15rem;
+  }
+  
+  .triangle3 .service-text p {
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    margin: 10px 0;
+    margin-left: 16rem;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    margin-left: 9rem;
+  }
+  
+  .buttons .btn {
+    background-color: rgb(0, 169, 179);
+    /* border: 2px solid rgb(210, 209, 59); */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease-in-out; */
+  }
+  
+  .buttons .btn:hover {
+    background-color:  rgb(3, 108, 113);
+  }
+  
+  
+  
+  /* latest news section start */
+  
+  
+  .latest-news{
+    margin-top: -45rem;
+  }
+  .latest-news p{
+    font-size: 1.125rem;
+    text-align: center;
+    margin: 0;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* line-height: 1rem; */
+  }
+  
+  
+  /* boxes section start */
+  
+  .containers {
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  
+  .boxes {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 1px;
+  }
+  
+  .boxes .box1 {
+  
+    background-color: rgb(0,45,116); 
+    /* margin: 10px;  */
+  }
+  .boxes .box1 h4{
+    margin-top: 8rem;
+  }
+  .boxes .box2 {
+    
+    background-color: rgb(243,144,8); 
+    /* margin: 10px;  */
+  }
+  .boxes .box3 {
+   
+    background-color: rgb(0,45,116); 
+    /* margin: 10px;  */
+  }
+  .boxes .box4 {
+  
+    background-color: rgb(0,45,116); 
+    /* margin: 10px; */
+  }
+  .arrow{
+    /* margin-top: 2rem; */
+    width: 57px;
+    height: 46px;
+    float: right;
+    background-color: #fff;
+  }
+  .bi{
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .visibility{
+    display: none;
+  }
+
+
+
+
+
+  /* last section start */
+  
+  
+  /* media query start */
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .speaker {
+      height: 7.5vh;
+      /* flex-direction: column; */
+      margin-top: -2.8rem;
+      /* z-index: -1; */
+    }
+  
+    .speaker img {
+      margin-top: 4rem;
+    }
+  
+    .col {
+      margin: 0; /* Remove the horizontal margin */
+  }
+  
+  
+  
+    .triangle {
+      /* margin-top: 35rem; */
+      display: none;
+      width: 100%;
+      height: 249px;
+      color: black;
+      /* background-color: #cb0808; */
+      margin: 0;
+      position: relative;
+      top: 50px;
+      left: 0.1rem;
+      clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%);
+      opacity: 0.9;
+    }
+  
+    .triangle-text {
+      height: 10rem;
+      margin-top: -10rem;
+      display: block;
+      /* margin-top: -10rem; */
+    }
+  
+    .triangle-text h1 {
+  
+      position:absolute;
+     
+     
+     
+      margin: 0;
+      color: black;
+      font-size: 2rem;
+    }
+  
+    .triangle-text p {
+      position: absolute;
+      /* top: 73%; */
+      left: 52%;
+      font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      transform: translate(-50%, -50%);
+      margin: 0;
+      color: black;
+      /* font-size: 2rem;  */
+    }
+  
+    .triangle-text button {
+      position: absolute;
+      /* top: 90%; */
+      left: 34%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      background-color: #00a9b3;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  
+  
+    }
+  
+    .screw-img img {
+      height: auto;
+    }
+  
+    .screw-rectangle {
+  
+      width: 100%;
+      height: 355px;
+      background-color: rgb(1, 46, 79);
+      position: relative;
+      /* top: 10%; */
+      /* margin-top: -0.7rem; */
+      /* right: 0; */
+      /* transform: translateY(-50%);  */
+      clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%);
+      /* opacity: 0.9; */
+      /* z-index: 999;  */
+    }
+    .screw-rectangle .products h2{
+      /* background-color: red; */
+      margin-left: 10px;
+      /* top: 2rem; */
+      padding-top: 2rem;
+    }
+    .screw-rectangle .products .ruler{
+      /* display: none; */
+      /* *************** */
+      margin-top: 5px;
+      height: 0.1px;
+      color: #ffff;
+      width: 10%;
+      margin-left: 0.8rem;
+    }
+    .screw-rectangle .products h1{
+      margin-left: 12px;
+      font-size: 39px;
+    }
+    .screw-rectangle .products p{
+      margin-left: 12px;
+    }
+    .screw-rectangle .products .button{
+      margin-top: 1.5rem;
+      margin-left: 10px;
+    }
+  
+    /* industry section start */
+  
+    .industry{
+      margin-top: -8rem;
+    }
+    .industry h1{
+      margin-top: -5rem;
+    }
+  
+  
+  
+    .industry p {
+      /* margin-left: 1rem; */
+    }
+      .box  {
+        width: 50%;
+        padding-top: 1rem;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay{
+        padding-top: 1rem;
+    }
+  
+    .container,
+    .box,
+    .image-container,
+    .box img,
+    .overlay,
+    .overlay h5,
+    .overlay p {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+      top: 40%;
+    }
+  
+    .overlay h5 {
+      margin-top: 4rem;
+    }
+  
+    .overlay p {
+      margin-top: 1rem;
+    }
+  
+    .ruler {
+      /* display: none; */
+      /* ************** */
+      height: 2.5px;
+      background-color: #ffff;
+      opacity: 100%;
+      /* width: 25rem; */
+      margin-left: 0;
+      align-items: center;
+    }
+  
+  
+  /* relation section start */
+  
+  
+  
+  .relations{
+    margin-top: 0.5rem;
+  }
+  
+  .relations h3 {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .relations 
+  h2{
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: white;
+    margin-left: 1rem;
+  }
+  .relations p{
+    margin-left: 1rem;
+  }
+  .relations .button{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .relations .ruler{
+    margin-left: 1rem;
+     height: 0.1px;
+     color: #ffff;
+    
+   
+  }
+  
+  
+  /* knowledge section start */
+  
+  .knowledge img{
+    /* margin-top: 20rem; */
+  }
+  .triangle2{
+   display: none;
+  }
+  
+  .triangle3{
+    display: none;
+  }
+  /* .triangle2 {
+    border: 2px solid red;
+    width: 200px;
+    height: 549px;
+    background-color: rgb(14, 12, 12);
+    margin: 0;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    opacity: 0.8;
+  } */
+  
+  
+  
+  
+  
+  /* service section ster */
+  .service {
+    margin-top: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .visibility{
+    /* border: 2px solid red; */
+  
+  }
+  
+  .visibility h1{
+    margin: 10px;
+    color: black;
+  
+  }
+  .visibility p{
+    margin: 10px;
+    color: black;
+  
+  }
+  .visibility button{
+    margin: 10px;
+    background-color: #00a9b3;
+  }
+    /* Add styles for other components as needed */
+  }
+  @media only screen and (max-width: 1400px) {
+    .triangle{
+      display: none;
+    }
+    .triangle2{
+        display: none;
+      /* clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%); */
+    }
+    .triangle3{
+      /* clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%); */
+      /* top: 50%; */
+      display: none;
+    }
+
+.visibility{
+    display: block;
+}
+
+
+
+    .visibility h1{
+      margin: 10px;
+      color: black;
+    
+    }
+    .visibility p{
+      margin: 10px;
+      color: black;
+    
+    }
+    .visibility button{
+      margin: 10px;
+      background-color: #00a9b3;
+    }
+  
+  
+  
+  
+  
+    /* screw triangle */
+  
+    
+    .screw-rectangle {
+  
+      width: 100%;
+      height: 363px;
+      background-color: rgb(41, 129, 193);
+      position: relative;
+      top: 10%;
+      /* right: 0; */
+      /* transform: translateY(-50%);  */
+      clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%);
+      /* opacity: 0.9; */
+      /* z-index: 999;  */
+    }
+    .screw-rectangle .products h2{
+      /* background-color: red; */
+      margin-left: 10px;
+      /* top: 2rem; */
+      padding-top: 2rem;
+    }
+    .screw-rectangle .products .ruler{
+      width: 75%;
+      margin-left: 0.8rem;
+    }
+    .screw-rectangle .products h1{
+      margin-left: 12px;
+      font-size: 39px;
+    }
+    .screw-rectangle .products p{
+      margin-left: 12px;
+    }
+    .screw-rectangle .products .button{
+      margin-left: 10px;
+    }
+
+
+    .service {
+        margin-top: 0;
+      }
+
+
+
+      .latest-news{
+        margin-top: 0;
+      }
+
+
+      .box  {
+        padding-top: 1rem;
+        width: 100%;
+    }
+  }
