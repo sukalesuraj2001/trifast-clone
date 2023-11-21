@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif !important;
   }
   
   .speaker {
@@ -108,32 +109,62 @@
   }
   
   
-  /* screw img section start */
-  
-  
-  .screw-img img {
-    width: 100%;
-    height: 80vh;
+  /* ------------ screw img section start ---------- */
+  .contain {
+    border: 2px solid red;
+    position: relative;
+    color: white;
+    height: auto;
+  }
+  .contain-img {
+    height: 77vh;
   }
   
-  .screw-rectangle {
-    width: 753px;
-    height: 80vh;
-    background-color: rgb(41, 129, 193);
+  .contain-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .texts {
+    border: 1px solid black;
     position: absolute;
-    top: 171%;
+    bottom: 0;
     right: 0;
-    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    background-color: rgb(41, 129, 193);
     clip-path: polygon(0 0, 360% 0, 180% 200%, 0 75%);
     opacity: 0.9;
-    z-index: 999;
-  
-  
+    padding: 8%;
+    padding-right: 15%;
   }
   
-  .screw-rectangle .products h2 {
-    margin-top: 7rem;
-    margin-left: 8rem;
+  .texts h3 {
+    /* border: 1px solid red; */
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+    font-weight: 600;
+  }
+
+  .texts h1 {
+    font-size: 2rem;
+    line-height: 38px;
+    font-weight: 600;
+  }
+  .texts p {
+    font-size: 1rem;
+    word-spacing: 3px;
+    margin: 5% 0%;
+  }
+  .texts button{
+    font-size: 1rem;
+    border: 1px solid white;
+    background-color: rgb(41, 129, 193);
+    color: white;
+    border-radius: 5px;
+    padding: 3% 5%;
+    font-weight: 600;
   }
   /* .screw-rectangle .products .ruler{
     width: 20%;
@@ -142,6 +173,7 @@
   /* industry text area :start */
   
   .industry {
+    height: auto;
     text-align: center;
   }
   
@@ -957,55 +989,23 @@ h2 {
       border: none;
       border-radius: 5px;
       cursor: pointer;
-  
-  
     }
-  
-    .screw-img img {
+    /* -------------poly----------- */
+    .texts {
+      position: relative;
+      width: 100%;
+      clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%);
+    }
+    .contain-img {
       height: auto;
     }
-  
-    .screw-rectangle {
-  
+    
+    .contain-img img {
       width: 100%;
-      height: 355px;
-      background-color: rgb(1, 46, 79);
-      position: relative;
-      /* top: 10%; */
-      /* margin-top: -0.7rem; */
-      /* right: 0; */
-      /* transform: translateY(-50%);  */
-      clip-path: polygon(0 0, 360% 0, 180% 200%, 0 100%);
-      /* opacity: 0.9; */
-      /* z-index: 999;  */
+      height: 100%;
+      object-fit: cover;
     }
-    .screw-rectangle .products h2{
-      /* background-color: red; */
-      margin-left: 10px;
-      /* top: 2rem; */
-      padding-top: 2rem;
-    }
-    .screw-rectangle .products .ruler{
-      /* display: none; */
-      /* *************** */
-      margin-top: 5px;
-      height: 0.1px;
-      color: #ffff;
-      width: 10%;
-      margin-left: 0.8rem;
-    }
-    .screw-rectangle .products h1{
-      margin-left: 12px;
-      font-size: 39px;
-    }
-    .screw-rectangle .products p{
-      margin-left: 12px;
-    }
-    .screw-rectangle .products .button{
-      margin-top: 1.5rem;
-      margin-left: 10px;
-    }
-  
+    /* ------------------- */
     /* industry section start */
   
     .industry{
