@@ -13,9 +13,12 @@
 
 .navbar-nav {
     margin-top: 8rem;
-    margin-left: 19%;
-    width: 100%;
 
+    margin-left: 15%;
+
+    margin-left: 19%;
+
+    width: 100%;
 }
 .navbar-nav{
 
@@ -24,7 +27,7 @@
 .nav-item a {
     color: black;
     font-size: 18px;
-    /* color: blue; */
+    /* / color: blue; / */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -46,7 +49,7 @@
 }
 
 form {
-    /* display: flex; */
+    /* / display: flex; / */
     left: 8rem;
 }
 
@@ -57,9 +60,9 @@ form .idea .bookmark {
 
 .idea {
     margin-top: -1rem;
-    /* margin-left: 3rem; */
-    /* position: absolute; */
-    /* border-bottom: 5px solid black; */
+    /* / margin-left: 3rem; /
+    / position: absolute; /
+    / border-bottom: 5px solid black; / */
 }
 
 .bookmark {
@@ -123,7 +126,7 @@ form .idea .bookmark {
 }
 
 
-/* dropdown menu */
+/* / dropdown menu / */
 
 
 .navbar-nav .nav-item:hover .dropdown-menu {
@@ -145,10 +148,10 @@ form .idea .bookmark {
 
 
 
-    /* position: relative; */
-    /* transform: translateY(40%); */
-    /* padding: 60px 0 67px 0; */
-    /* left: 5%; */
+    /* / position: relative; /
+    / transform: translateY(40%); /
+    / padding: 60px 0 67px 0; /
+    / left: 5%; / */
 }
 
 /* .navbar-nav .nav-item .dropdown-menu:hover {
@@ -174,18 +177,18 @@ form .idea .bookmark {
     transform: scaleY(0);
     transform-origin: top;
     position: relative;
-    /* z-index: -2; */
+    /* / z-index: -2; / */
 
-    /* padding: 60px 0 67px 0; */
-    /* top: -12px; */
-    /* transition: transform ease-in-out .5s; */
-    /* transform: translateY(-100%); */
-    /* z-index: -5; */
+    /* / padding: 60px 0 67px 0; / */
+    /* / top: -12px; / */
+    /* / transition: transform ease-in-out .5s; / */
+    /* / transform: translateY(-100%); / */
+    /* / z-index: -5; / */
     left: 5%;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
 
 
-    /* transition: transform 0.3s ease-in; */
+    /* / transition: transform 0.3s ease-in; / */
 }
 
 .navbar img {
@@ -200,7 +203,7 @@ form .idea .bookmark {
 
 
 
-/* navbar toggler section start */
+/* / navbar toggler section start / */
 .navbar-toggler {
     font-size: 2rem;
 }
@@ -221,11 +224,11 @@ form .idea .bookmark {
 
 .cross {
     color: red;
-    /* display: none; */
+    /* / display: none; / */
     transition: opacity 10s ease;
 }
 
-/* ---------------------- */
+/* / ---------------------- / */
 body {
     /* width: 100%;
     height: 100vh;
@@ -241,7 +244,7 @@ body {
     text-align: center;
 }
 
-/* Your Angular component styles */
+/* / Your Angular component styles / */
 
 .hamburger__button {
   
@@ -287,12 +290,12 @@ body {
 
     position: absolute;
     width: 30px;
-    /* Decreased width */
+    /* / Decreased width / */
     height: 3px;
-    /* Decreased height */
+    /* / Decreased height / */
     border-radius: 4px;
     background-color: black;
-    /* Set color to black */
+    /* / Set color to black / */
 }
 
 .hamburger__icon {
@@ -334,7 +337,7 @@ body {
     width: 50px;
     height: 5px;
     top: -1px;
-    /* margin-left: 3rem; */
+    /* / margin-left: 3rem; / */
     transform: rotate(-270deg);
     
     
@@ -349,12 +352,12 @@ body {
 
 
 
-/* ------------------------------ */
+/ ------------------------------ /
 
 
-/* accordian section start */
+/* / accordian section start / */
 .navbar-collapse{
-    /* border: 2px solid red; */
+    /* / border: 2px solid red; / */
 }
 .accordians{
    
@@ -430,7 +433,7 @@ body {
         display: none;
         width: 80%;
         margin-left: 3rem;
-        /* z-index: 1; */
+        /* / z-index: 1; / */
         position: static;
     }
 

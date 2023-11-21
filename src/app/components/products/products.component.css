@@ -208,7 +208,10 @@ margin-inline-start: -1rem;
     align-items: stretch;
     }
     .title h5{
-        margin-left: -0.5rem;
+        /* margin-left: -0.5rem; */
+    }
+    .title a{
+        margin-left: 0rem;
     }
     .input-group input{
         margin-top: 0.8rem;
@@ -230,11 +233,12 @@ margin-inline-start: -1rem;
     }
     .card-container{
         margin-left: -1rem;
+        margin-top: 7rem;
         
     }
     .card{
         width: 85% !important;
-        margin-top: 3rem !important;
+        margin-top: -2.5rem !important;
     margin-bottom: 3rem !important;
     }
     .card-title, a{
@@ -263,5 +267,6 @@ margin-inline-start: -1rem;
     }
     .card-body, a{
         margin-inline-start: -0.5rem;
+        margin-top: -2rem;
     }
 }
