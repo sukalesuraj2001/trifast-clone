@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.forms {
+    /* border: 1px solid green; */
+    height: auto;
+}
+.sign-in,.forgot,.register {
+    /* border: 1px solid black; */
+    width: 47%;
+    margin: 5% auto;
+}
+.sign-in h2,.forgot h2,.register h2{
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 1.6rem;
+    border-bottom: 1px solid rgb(108, 107, 107);
+    padding-bottom: 2%;
+    font-weight: 510;
+}
+.sign-in strong,.register strong{
+    color: #00A9B3;
+}
+.sign-in label,.forgot label{
+    font-size: 1.3rem;
+    margin: 2% 0;
+    font-weight: 700;
+}
+.sign-in input,.forgot input,.register input{
+    width: 100%;
+    height: 45px;
+    border:1px solid rgb(197, 195, 195);
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+.sign-in input:focus,.register input:focus{
+    outline: 3.5px solid #abdfe1;
+    color: transparent;
+    border: 1px solid rgb(159, 158, 158);
+}
+.sign-in button,.forgot button,.register button{
+    margin-top: 5%;
+    border: none;
+    background-color: #00A9B3;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 1.5% 6%;
+    transition: all 0.3s ;
+}
+.sign-in button:hover,.forgot button:hover,.register button:hover{
+    background-color: #037a80;
+}
+.sign-in a{
+    color: #00A9B3;
+    font-size: 1.1rem;
+    margin: 0 5%;
+    text-decoration: none;
+}
+.sign-in a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/* -----forgot---------- */
+.forgot p {
+    font-size: 1rem;
+}
+.register label{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    font-weight: 700;
+}
+
+/* -----register---------- */
+.register select {
+    width: 60%;
+    height: 28px;
+    margin: 0% 2%;
+}
+#radio-input {
+    width: auto;
+    height: auto;
+    margin-left: 1%;
+}
+#checkbox-input {
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+.register button{ 
+    margin-bottom: 5%;
+}
+.flexes {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+}
+.flexes p {
+    padding-left: 3%;
+    padding-top: -3px;
+    margin-top: -4px;
+}
+
+@media (max-width:1000px) {
+    .sign-in,.forgot,.register {
+        width: 55%;
+    }
+}
+@media (max-width:760px) { 
+    .sign-in,.forgot,.register {
+        width: 85%;
+    }
+}
