@@ -1,0 +1,63 @@
+<div [ngSwitch]="menuType" class="forms" >
+    <div *ngSwitchCase="'default'" class="sign-in">
+        <h2>Sign In</h2>
+        <form>
+            <label for="email">Email <strong>*</strong></label><br>
+            <input type="email" ><br>
+            <label for="Password">Password <strong>*</strong></label><br>
+            <input type="password"><br>
+            <button>Sign in</button>
+            <a (click)="toForgot()">Forgot your password?</a>
+            <a (click)="toRegister()">Register as a new user?</a>
+        </form>
+    </div>
+    <!-- -------forgot--------- -->
+    <div *ngSwitchCase="'forgot'" class="forgot">
+        <h2>Forgot your password?</h2>
+        <p>Just enter your email address below and click the email link button and we will send you an email with a link for you to reset your password</p>
+        <form>
+            <label for="email">Email </label><br>
+            <input type="email"><br>
+            <button>Email link</button>
+        </form>
+    </div>
+
+    <!-- -----Register---------- -->
+    <div *ngSwitchCase="'register'" class="register">
+        <h2>Register</h2>
+        <form>
+            <label for="name">Name <strong>*</strong> </label><br>
+            <input type="name"><br>
+            <label for="country">Country<strong>*</strong> </label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            <label for="company">Company<strong>*</strong></label><br>
+            <input type="company"><br>
+            <label for="number">Phone number<strong>*</strong></label><br>
+            <input type="number"><br>
+            <label for="email">Email <strong>*</strong></label><br>
+            <input type="email" ><br>
+            <label for="password">Password<strong>*</strong></label><br>
+            <input type="password"><br>
+            <label for="password">Confirm password<strong>*</strong></label><br>
+            <input type="password"><br>
+            <p>Must contain numbers, uppercase and lowercase letters, and be at least 12 characters.</p><br>
+            <!-- --radio-- -->
+            <label for="password">Enable two-factor authorisation?</label>
+            <input id="radio-input" type="radio" name="fav_language" value="HTML">
+            <label class="radio-btn" for="html">HTML</label>
+            <input id="radio-input" type="radio" name="fav_language" value="CSS">
+            <label class="radio-btn" for="css">CSS</label><br>
+            <p>NOTE: Two-factor authentication is done via SMS text.</p><br>
+            <div class="flexes">
+            <input id="checkbox-input" type="checkbox" name="vehicle1" value="ues">
+            <p>I confirm I have read and agree to the Terms and Conditions of Use of www.trfastenings.com and Privacy Policy</p>
+            </div>
+            <button>Register</button>
+        </form>
+    </div>
+</div>
