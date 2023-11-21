@@ -1,0 +1,163 @@
+*{
+    font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.header{
+    background-color: #002d74;
+    color: #fff;
+    padding: 66px 0 66px;
+}
+.header h2{
+    padding-left: 250px;
+    font-size: 2.375rem;
+}
+
+.main-container{
+    padding: 80px 0 100% 0 ;
+    background-color: #f0f0f0;
+}
+.main-container,.get{
+    font-size: 35px !important;
+    color: #002d74;
+    text-align: center;
+}
+
+.accordion-item a{
+  margin-left: 25px;
+    color: #38a2dc;
+    font-size: 1.25rem;
+}
+.accordion-item{
+    padding: 5px;
+    margin: 150px;
+    margin-top: 20px;
+    border-radius: 4px;
+    /* border: 2px solid red; */
+    background-color: #fff !important;
+    color: #38a2dc !important;
+    margin-bottom: 20px; /* Adjust the value to your preference for the space between accordion items */
+}
+.accordion-item a{
+  /* border: 2px solid red; */
+  margin-left: 0rem;
+}
+.accordion-collapse{
+  margin-left: 0;
+  color: #002d74;
+}
+.accordion-item,.accordion-body{
+    color:#00a9b3 !important;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.accordion-button .h5{
+    color:#121314;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    /* text-align: left; */
+    margin-right: 10px;
+}
+
+.accordion-collapse, .li{
+    color:#00a9b3;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+}
+.accordion-collapse h5{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+@media only screen  and (max-width:768px) {
+    .accordion-item,.header h2 {
+      /* margin-left: 20rem; */
+      /* border:  1px solid red !important; */
+      font-size: 2.375rem;
+      text-align: center !important;
+    margin-inline-start: auto !important;
+    }
+    .header h2{
+      /* border: 1px solid red !important; */
+      margin-inline-start: -16rem !important;
+    }
+    .accordion-item,.header{
+      border: .91px solid rgb(106, 99, 99);
+      width: 100%;
+    }
+    .accordion-body{
+      margin-left: -1rem !important;
+    }
+    .accordion-item{
+      width: 95%;
+      margin-right: 0.5rem;
+    }
+  
+    .accordion-button{
+      
+    }
+    .accordion-button {
+      /* border: 2px solid red; */
+      margin-left: 01rem !important;
+      width: 90%;
+    }
+    .get{
+      text-align: center !important; 
+      padding: 3rem;
+      margin-top: 0rem;
+      margin-top: -1.9rem;
+
+    }
+    .main-container,
+    .get,
+    .accordion-item a,
+    .accordion-item,
+    .accordion-body,
+    .accordion-button,
+    .h5,
+    .accordion-collapse,
+    .li {
+      font-size: 16px;
+      text-align: left;
+    }
+    
+  }
+  
+  @media (min-width: 768px) {
+    .main-container {
+      padding: 80px 0;
+    }
+    .accordion-collapse.ul{
+      text-align: left !important;
+      font-size: 1px;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+    .main-container {
+      padding: 100px 0;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .main-container {
+      padding: 120px 0;
+    }
+  }
