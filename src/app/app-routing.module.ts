@@ -22,7 +22,7 @@ const routes: Routes = [
   {path:"investor",component:InvestorsComponent},
 
   {path:"products",component:ProductsComponent},
-  {path:"knowledge-base",component:KnowledgeBaseComponent}
+  {path:"knowledge-base",component:KnowledgeBaseComponent},
 
   {path:"service",component:ServicesComponent},
   {path:"industries",component:IndustriesComponent},

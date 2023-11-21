@@ -36,7 +36,7 @@ import { ContactComponent } from './components/contact/contact.component';
     InvestorsComponent,
 
     ProductsComponent,
-    KnowledgeBaseComponent
+    KnowledgeBaseComponent,
 
     ServicesComponent,
     IndustriesComponent,
