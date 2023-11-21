@@ -21,9 +21,8 @@ import { MaterialModule } from './material/material.module';
 import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 import { ContactComponent } from './components/contact/contact.component';
-
-
-
+import { FormsModule } from '@angular/forms';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -37,24 +36,22 @@ import { ContactComponent } from './components/contact/contact.component';
 
     ProductsComponent,
     KnowledgeBaseComponent,
-
+    RegisterComponent,
     ServicesComponent,
     IndustriesComponent,
 
     SustainabilityComponent,
 
-    ContactComponent
-
-
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-   
-    MaterialModule
+    FormsModule,
+    MaterialModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

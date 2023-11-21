@@ -111,7 +111,7 @@
   
   /* ------------ screw img section start ---------- */
   .contain {
-    border: 2px solid red;
+    
     position: relative;
     color: white;
     height: auto;
@@ -126,7 +126,7 @@
     object-fit: cover;
   }
   .texts {
-    border: 1px solid black;
+ 
     position: absolute;
     bottom: 0;
     right: 0;

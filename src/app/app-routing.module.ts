@@ -13,6 +13,7 @@ import { IndustriesComponent } from './components/industries/industries.componen
 import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 import { ContactComponent } from './components/contact/contact.component';
+import { RegisterComponent } from './components/register/register.component';
 
 
 
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path:"sustainability",component:SustainabilityComponent},
 
   {path:"contact",component:ContactComponent},
+  {path:'register',component:RegisterComponent}
 
 
 ];
