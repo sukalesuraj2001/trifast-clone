@@ -1,0 +1,203 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 contact">
+            <h1>TR global locations</h1>
+            <div class="text mt-5">
+                <h4>The TR Group consists of 33 locations within the UK, Asia, Europe and the USA including seven high
+                    volume sites manufacturing cold forged fasteners and special parts and three technical and
+                    innovation centres </h4>
+            </div>
+        </div>
+        <div class="para mt-4">
+            <p> Use the interactive globe below to find out more about each of our locations.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row country">
+        <div class="col-md-3">
+            <button class="btn" (click)="selectMenu('Uk &Ireland')"
+                [ngClass]="{'selected': isMenuSelected('Uk &Ireland')}">Uk &Ireland</button>
+        </div>
+        <div class="col-md-3">
+            <button class="btn" (click)="selectMenu('Europe')"
+                [ngClass]="{'selected': isMenuSelected('Europe')}">Europe</button>
+        </div>
+        <div class="col-md-3">
+            <button class="btn" (click)="selectMenu('USA')" [ngClass]="{'selected': isMenuSelected('USA')}">USA</button>
+        </div>
+        <div class="col-md-3">
+            <button class="btn" (click)="selectMenu('Asia')"
+                [ngClass]="{'selected': isMenuSelected('Asia')}">Asia</button>
+        </div>
+        <hr class="country-ruler">
+    </div>
+</div>
+
+
+
+<section class="address-section">
+    <div class="container" [ngSwitch]="selectedMenu">
+        <div class="row" *ngSwitchCase="'Uk &Ireland'">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Trifast plc</h1>
+                    <h4 class="fw-medium">Trifast plc</h4>
+                    <h4>Trifast House, Bellbrook Park, Uckfield, East Sussex, TN22 1QW</h4>
+                    <h4>Registered in England | Registered No: 1103675 | VAT No. 390068451</h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone: +44 (0)1825 747366</h4>
+                    <h4>Email: <a href="#"> Investor relations</a></h4>
+                    <h4> Email:<a href="#"> Shareholders</a></h4>
+                    <h4> Email:<a href="#"> Sustainability</a></h4>
+                </div>
+            </div>
+            <hr class="address-ruler">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Uckfield</h1>
+                    <h4 class="fw-medium">TR Fastenings Ltd</h4>
+                    <h4>Trifast House, Bellbrook Park, Uckfield, East Sussex, TN22 1QW</h4>
+                    <h4>Registered in UK | Registered No: 1103675 | VAT No. 390068451</h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone: +44 (0)1825 764711 </h4>
+                    <h4>Fax: +44 (0)870 458 7851</h4>
+                    <h4> Email:<a href="#"> sales@trfastenings.com</a></h4>
+                    <!-- <h4> Email:<a href="#"> Sustainability</a></h4> -->
+                </div>
+            </div>
+            <hr class="address-ruler">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Tipton - West Midlands</h1>
+                    <h4 class="fw-medium">TR Fastenings Ltd</h4>
+                    <h4>Waterside Park, Goldshill Way, Tipton, West Midlands, DY4 0WP
+
+                    </h4>
+                    <h4 class="fw-medium">Technical and Innovation Centre: TR Fastenings Ltd
+
+                    </h4>
+                    <h4>Unit C, Waterside Park, Goldshill Way, Tipton, West Midlands, DY4 0PU
+
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone:  +44 (0)121 521 0100</h4>
+                    <h4>Fax: +44 (0)121 521 0101
+
+                    </h4>
+                    <h4> Email:<a href="#"> wednesbury@trfastenings.com</a></h4>
+                    <!-- <h4> Email:<a href="#"> Sustainability</a></h4> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" [ngSwitch]="selectedMenu">
+        <div class="row" *ngSwitchCase="'Europe'">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Trifast plc</h1>
+                    <h4 class="fw-medium">Trifast plc</h4>
+                    <h4>Trifast House, Bellbrook Park, Uckfield, East Sussex, TN22 1QW</h4>
+                    <h4>Registered in England | Registered No: 1103675 | VAT No. 390068451</h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone: +44 (0)1825 747366</h4>
+                    <h4>Email: <a href="#"> Investor relations</a></h4>
+                    <h4> Email:<a href="#"> Shareholders</a></h4>
+                    <h4> Email:<a href="#"> Sustainability</a></h4>
+                </div>
+            </div>
+            <hr class="address-ruler">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Uckfield</h1>
+                    <h4 class="fw-medium">TR Fastenings Ltd</h4>
+                    <h4>Trifast House, Bellbrook Park, Uckfield, East Sussex, TN22 1QW</h4>
+                    <h4>Registered in UK | Registered No: 1103675 | VAT No. 390068451</h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone: +44 (0)1825 764711 </h4>
+                    <h4>Fax: +44 (0)870 458 7851</h4>
+                    <h4> Email:<a href="#"> sales@trfastenings.com</a></h4>
+                    <!-- <h4> Email:<a href="#"> Sustainability</a></h4> -->
+                </div>
+            </div>
+            <hr class="address-ruler">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Tipton - West Midlands</h1>
+                    <h4 class="fw-medium">TR Fastenings Ltd</h4>
+                    <h4>Waterside Park, Goldshill Way, Tipton, West Midlands, DY4 0WP
+
+                    </h4>
+                    <h4 class="fw-medium">Technical and Innovation Centre: TR Fastenings Ltd
+
+                    </h4>
+                    <h4>Unit C, Waterside Park, Goldshill Way, Tipton, West Midlands, DY4 0PU
+
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <h4>Phone:  +44 (0)121 521 0100</h4>
+                    <h4>Fax: +44 (0)121 521 0101
+
+                    </h4>
+                    <h4> Email:<a href="#"> wednesbury@trfastenings.com</a></h4>
+                    <!-- <h4> Email:<a href="#"> Sustainability</a></h4> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" [ngSwitch]="selectedMenu">
+        <div class="row" *ngSwitchCase="'USA'">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>USA plc0101</h1>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>USA plc001</h1>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="container" [ngSwitch]="selectedMenu">
+        <div class="row" *ngSwitchCase="'Asia'">
+            <div class="col-md-6">
+                <div class="address">
+                    <h1>Asia plc0101</h1>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="address">
+                    <h1>Asia plc001</h1>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&family=PT+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;1,200&display=swap");
+/* ------------------Main------------------- */
+.main {
+  height: auto;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+.main-img {
+  /* border: 1px solid red; */
+  height: 90vh;
+  width: 100%;
+}
+.main-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.triangles {
+  /* border: 1px solid red; */
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  width: 65%;
+  height: 70%;
+}
+.triangle-texts {
+  margin-top: 25%;
+  margin-left: 5%;
+  width: 50%;
+}
+.triangle-texts h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #642682;
+  font-weight: 600;
+}
+.triangle-texts h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9rem;
+  color: #002d74;
+  font-weight: 600;
+}
+.triangle-texts p {
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.text {
+  /* border: 1px solid red; */
+  margin-top: -20px;
+  background-color: #002d74;
+  color: #fff;
+  padding: 66px 0 66px;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.inside-text {
+  /* border: 1px solid red; */
+  /* padding-left: 20%; */
+  padding: 0px 20%;
+}
+.inside-text strong {
+  color: #00a9b3;
+}
+.inside-text strong:hover {
+  color: #04969d;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.text h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.transparent-btn {
+  background-color: transparent;
+  width: auto;
+  padding: 10px 15px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: white;
+  margin-top: 10px;
+  color: white;
+}
+.transparent-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* /////////////////// second section//////////////////////// */
+.main {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  /* border: 1px solid red; */
+}
+.inner {
+  width: 64%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.inner h1 {
+  font-weight: 500;
+  color: black;
+  height: auto;
+  line-height: 30px;
+}
+.inner h3 {
+  font-weight: 400;
+  line-height: 20px;
+}
+.video-section {
+  width: 64%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.section-first {
+  width: 70%;
+  margin: auto;
+}
+
+/* /////////////// video section /////////////// */
+.section-second iframe {
+  margin: 20px 0px;
+  width: 94%;
+  height: 500px;
+}
+
+/* ////////       fourth section       //////// */
+.img-section {
+  width: 94%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img-section div {
+  width: 32%;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.triangle {
+  width: 100% !important;
+  height: 250px !important;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #002d74;
+  opacity: 0.9;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  color: white;
+}
+.triangle h3 {
+  display: none;
+}
+.triangle h5 {
+  padding-top: 180px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+.img1:hover .triangle {
+  height: 100% !important;
+  top: 0 !important;
+  margin-top: 0;
+  transition-duration: 0.1s;
+  clip-path: none;
+}
+.img1:hover h3 {
+  display: block;
+  padding: 50px;
+}
+.img1:hover h5 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .triangles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .main-img {
+    height: 100%;
+  }
+  .text{
+    margin-top: 0px;
+  }
+  .triangle-texts {
+    margin: 0;
+    width: 100%;
+    padding: 3%;
+    height: auto;
+  }
+  .inside-text {
+    padding: 3%;
+  }
+  .text h3 {
+    font-size: 1.3rem;
+  }
+  .text {
+    padding: 2% 1%;
+  }
+
+  .main {
+    margin: 10px 0px;
+  }
+  .inner {
+    width: 90%;
+    padding: 10px 5px;
+  }
+  .inner h4 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .inner h5 {
+    font-size: 16px;
+  }
+  .video-section {
+    width: 90%;
+  }
+  .section-second iframe {
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .section-first {
+    width: 90%;
+  }
+  .section-first h2 {
+    font-size: 32px;
+  }
+  .img-section div {
+    width: 100%;
+  }
+  .triangle h5 {
+    padding-left: 20px;
+  }
+}
