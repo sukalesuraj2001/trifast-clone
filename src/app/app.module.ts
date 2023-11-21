@@ -10,6 +10,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
+
+import { ProductsComponent } from './components/products/products.component';
+import { KnowledgeBaseComponent } from './components/knowledge-base/knowledge-base.component';
+
 import { ServicesComponent } from './components/services/services.component';
 import { IndustriesComponent } from './components/industries/industries.component';
 import { MaterialModule } from './material/material.module';
@@ -17,6 +21,7 @@ import { MaterialModule } from './material/material.module';
 import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 import { ContactComponent } from './components/contact/contact.component';
+
 
 
 
@@ -29,12 +34,17 @@ import { ContactComponent } from './components/contact/contact.component';
     CardsComponent,
     CompanyComponent,
     InvestorsComponent,
+
+    ProductsComponent,
+    KnowledgeBaseComponent,
+
     ServicesComponent,
     IndustriesComponent,
 
     SustainabilityComponent,
 
     ContactComponent
+
 
   ],
   imports: [
