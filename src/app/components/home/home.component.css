@@ -1141,6 +1141,10 @@ h2 {
   /* Add styles for other components as needed */
 }
 @media only screen and (max-width: 1400px) {
+  .speaker img {
+    display: none;
+  }
+  
   .triangle {
     display: none;
   }

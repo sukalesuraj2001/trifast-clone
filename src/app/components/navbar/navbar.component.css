@@ -237,12 +237,14 @@ body {
 }
 
 .hamburger {
+    border: 2px solid green;
     text-align: center;
 }
 
 /* Your Angular component styles */
 
 .hamburger__button {
+  
     margin-top: -3rem;
     position: relative;
     /* top: 0;
@@ -253,18 +255,18 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    background: rgb(0, 169, 179);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    /* background: rgb(0, 169, 179);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%); */
     overflow: hidden;
     text-indent: 100%;
     color: transparent;
     white-space: nowrap;
   }
   
-  .hamburger__button:focus {
+  /* .hamburger__button:focus {
     background: white;
     clip-path: none;
-  }
+  } */
   
  
 
@@ -274,6 +276,7 @@ body {
   } */
 
 .hamburger__icon {
+    
     margin-left: 4rem;
 }
 
@@ -288,7 +291,7 @@ body {
     height: 3px;
     /* Decreased height */
     border-radius: 4px;
-    background-color: white;
+    background-color: black;
     /* Set color to black */
 }
 
@@ -307,6 +310,7 @@ body {
 
 .hamburger__icon::before {
     bottom: 6px;
+    transition: all 0.3s linear;
 }
 
 .hamburger__icon::after {
@@ -349,6 +353,19 @@ body {
 
 
 /* accordian section start */
+.navbar-collapse{
+    /* border: 2px solid red; */
+}
+.accordians{
+   
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-left: -1.7rem;
+
+}
+
+
 .accordion-item {
     border: none;
 }
