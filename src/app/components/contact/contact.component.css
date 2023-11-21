@@ -54,6 +54,7 @@ font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoj
     transition: background-color 0.3s ease, color 0.3s ease; 
 
     color: white;
+    
 
 }
 .country button:hover,
@@ -105,4 +106,9 @@ font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoj
     color: rgb(10, 9, 9);
      margin-left: 15%;
      width: 80%;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    
  }

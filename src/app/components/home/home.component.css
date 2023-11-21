@@ -1009,10 +1009,12 @@ h2 {
     /* industry section start */
   
     .industry{
-      margin-top: -8rem;
+      /* margin-top: -8rem; */
+      height: auto;
     }
     .industry h1{
       margin-top: -5rem;
+      height: auto;
     }
   
   
