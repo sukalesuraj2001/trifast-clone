@@ -11,6 +11,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { CardsComponent } from './cards/cards.component';
 import { CompanyComponent } from './components/company/company.component';
 import { InvestorsComponent } from './components/investors/investors.component';
+import { ProductsComponent } from './components/products/products.component';
+import { KnowledgeBaseComponent } from './components/knowledge-base/knowledge-base.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { InvestorsComponent } from './components/investors/investors.component';
     FooterComponent,
     CardsComponent,
     CompanyComponent,
-    InvestorsComponent
+    InvestorsComponent,
+    ProductsComponent,
+    KnowledgeBaseComponent
   ],
   imports: [
     BrowserModule,
