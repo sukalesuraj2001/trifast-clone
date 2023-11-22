@@ -3,12 +3,16 @@
         <img routerLink="/"
             src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png"
             class="img-thumbnail" alt="...">
-        <button class="navbar-toggler hamburger__button" (click)="btn()" [class.toggled]="isToggled" type="button"
+        <button class="navbar-toggler hamburger__button"   type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
             <span class="navbar-toggler-icon hamburger__icon"></span>
             <!-- <span class="cross" >&times;</span> -->
         </button>
 
+
+
+
+        
         <!-- accordians start -->
         <div class="collapse-expand-xl navbar-collapse" id="navbarSupportedContent">
             <div class="accordians">
@@ -16,7 +20,7 @@
                     id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button  custom-btn collapsed" type="button"
+                            <button class="accordion-button  custom-btn collapsed" routerLink="/contact" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
                                 Company
@@ -38,7 +42,7 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/investor" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
                                 Invester
@@ -61,7 +65,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/products" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
                                 Products
@@ -151,7 +155,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/knowledge-base" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFour" aria-expanded="false"
                                 aria-controls="flush-collapseFour">
                                 Knowledge Base
@@ -172,7 +176,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" souterLink="/service" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFive" aria-expanded="false"
                                 aria-controls="flush-collapseFive">
                                 Services
@@ -193,7 +197,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLinl="/industries" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseSix" aria-expanded="false"
                                 aria-controls="flush-collapseSix">
                                 Industries
@@ -214,7 +218,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/sustainability" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseSeven" aria-expanded="false"
                                 aria-controls="flush-collapseSeven">
                                 Sustainability
@@ -234,7 +238,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" routerLink="contact" type="button"
+                            <button class="accordion-button collapsed" routerLink="/contact" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
                                 aria-controls="flush-collapseEight">
                                 Contact

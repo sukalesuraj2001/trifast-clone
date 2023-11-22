@@ -31,7 +31,8 @@ const routes: Routes = [
   {path:"sustainability",component:SustainabilityComponent},
 
   {path:"contact",component:ContactComponent},
-  {path:'register',component:RegisterComponent}
+  {path:'register',component:RegisterComponent},
+ 
 
 
 ];

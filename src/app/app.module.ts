@@ -40,6 +40,8 @@ import { RegisterComponent } from './components/register/register.component';
     IndustriesComponent,
     SustainabilityComponent,
     ContactComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
