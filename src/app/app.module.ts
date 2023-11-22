@@ -33,15 +33,12 @@ import { RegisterComponent } from './components/register/register.component';
     CardsComponent,
     CompanyComponent,
     InvestorsComponent,
-
     ProductsComponent,
     KnowledgeBaseComponent,
     RegisterComponent,
     ServicesComponent,
     IndustriesComponent,
-
     SustainabilityComponent,
-
     ContactComponent,
   ],
   imports: [
