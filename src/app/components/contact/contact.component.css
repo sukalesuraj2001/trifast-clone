@@ -13,6 +13,7 @@ font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoj
 }
 .text{
 
+    height: auto;
     width: 70%;
     margin: auto;
 }
@@ -110,5 +111,34 @@ font-family: Montserrat, Open Sans, sans-serif, Apple Color Emoji, Segoe UI Emoj
 
  @media only screen and (max-width: 768px) {
 
+    .contact h1{
+        margin-left: 0;
+    }
+    .text{
+
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .para{
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .country{
+        margin-top: 3rem;
+        margin-left: 0;
+        width: 100%;
+      
+    }
+    .country button{
+        width: 100%;
+        
+       
+    }
+    .address{
+        margin-left: 0;
+    
+    }
     
  }

@@ -166,7 +166,17 @@ form .idea .bookmark {
     transition: transform 0.3s ease-in;
 } */
 
-
+/* Add a class to handle the animation */
+.navbar-collapse.collapse {
+    transition: height 0.5s ease-in;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .navbar-collapse.collapsing {
+    height: auto; 
+  }
+  
 
 
 
@@ -253,8 +263,8 @@ body {
     position: relative;
     /* top: 0;
     right: 0; */
-    margin-right: -1.5rem;
-    width: 200px;
+    /* margin-right: -1.5rem; */
+    width: 140px;
     height: 180px;
     border: none;
     outline: none;
@@ -399,9 +409,34 @@ body {
 }
 
 
-.accordion-body {
-    padding: 0.5rem 1rem;
+.accordion-body  h3 a{
+    text-decoration: none;
+    color: black;
 }
+.accordion-body  h3 a{
+    margin-left: 2rem;
+}
+.accordion-body  h3 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.accordion-button:hover{
+    color: rgb(0,169,179);
+    font-size:1.05rem;
+
+}
+.accordion-button,.accordion-body,.accordion-collapse{
+   background-color: rgb(245, 244, 244);
+}
+
+.accordion-button.collapsed + .accordion-collapse .accordion-body {
+    display: block;
+  }
+ 
+
+
+/* ------------- */
+
 
 
 
