@@ -1,0 +1,106 @@
+<div class="main">
+  <div class="inner">
+    <h1>Your search for "{{ search.value }}" found 0 Result</h1>
+    <hr />
+    <div class="search-options">
+      <h2>
+        <ol>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/search-black-24-dp.svg"
+                alt=""
+              />
+              <h3><a>All</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/company_black.svg"
+                alt=""
+              />
+              <h3><a>Company</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/investors_black.svg"
+                alt=""
+              />
+              <h3><a>Investors</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/product_black.svg"
+                alt=""
+              />
+              <h3><a>Products</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/KB_black.svg"
+                alt=""
+              />
+              <h3><a>Knowledge Base</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/services_black.svg"
+                alt=""
+              />
+              <h3><a>Services</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/industry_black.svg"
+                alt=""
+              />
+              <h3><a>Industry</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/sustainability_black.svg"
+                alt=""
+              />
+              <h3><a>Sustainability</a></h3>
+            </div>
+          </li>
+          <li>
+            <div class="option">
+              <img
+                src="https://www.trfastenings.com/Content/images/component70/contact_black.svg"
+                alt=""
+              />
+              <h3><a href="">Contact</a></h3>
+            </div>
+          </li>
+        </ol>
+      </h2>
+    </div>
+    <div class="search-suggestion">
+      <h2>Can’t find what you are looking for?</h2>
+      <h4>Try another search.</h4>
+      <div>
+        <input type="text" #search />
+        <button (click)="searchItem()">
+          <img
+            src="https://www.trfastenings.com/Content/images/component70/search-cyan-24-dp.svg"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

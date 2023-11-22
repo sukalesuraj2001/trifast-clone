@@ -1,0 +1,104 @@
+.main {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.inner {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.inner h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 28px;
+}
+.search-options {
+  width: 100%;
+  height: auto;
+}
+.search-options ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+.search-options ol li {
+  margin-right: 4%;
+  font-weight: 500;
+}
+.search-options li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.search-suggestion {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+.search-suggestion h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.search-suggestion h4 {
+  margin-top: -10px;
+}
+.search-suggestion div {
+  padding: 5px 0px;
+}
+.search-suggestion input {
+  height: 40px;
+  width: 45%;
+  border-radius: 0;
+  border: 1px solid #bcbbbb;
+}
+.search-suggestion input:focus {
+  outline: 1px solid rgb(0, 169, 179);
+}
+.search-suggestion button {
+  height: 40px;
+  width: 5%;
+  /* background-color: rgb(0, 169, 179); */
+  color: white;
+  border: 1px solid rgb(0, 169, 179);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-suggestion button img {
+  color: white;
+}
+.option {
+  display: flex;
+}
+.option img {
+  height: 25px;
+  width: 25px;
+}
+
+.option h3 a:hover,img {
+  color: rgb(0, 169, 179);
+}
+
+
+/* ///////////// responsive web design /////////// */
+@media screen and (max-width: 768px) {
+  .inner {
+    width: 80%;
+  }
+  .search-suggestion {
+    width: 100%;
+  }
+  .search-suggestion input {
+    width: 70%;
+  }
+  .search-suggestion button {
+    width: 15%;
+  }
+}
