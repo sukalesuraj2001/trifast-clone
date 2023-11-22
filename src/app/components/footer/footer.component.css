@@ -111,6 +111,7 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
   }
   .award-section div {
     width: 24%;
@@ -172,18 +173,34 @@
       display: block;
       width: 90%;
       padding: 2%;
+      margin: auto;
     }
     .right-section {
       display: block;
       width: 90%;
+      margin: auto;
     }
     .image-section div .img {
-      width: 24%;
+      width: auto;
     }
     .img img {
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+    .menu-links h1{
+        width: auto;
+        padding: 1%;
+        margin-left: 2%;
+    }
+    .award-section div{
+        width: 49%;
+        min-height: 150px !important;
+        margin-top: 2%;
+    }
+    .btn{
+        width: auto;
+        padding: 1% 5%;
     }
   }
   
