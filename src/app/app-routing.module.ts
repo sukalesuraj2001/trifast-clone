@@ -14,6 +14,7 @@ import { SustainabilityComponent } from './components/sustainability/sustainabil
 
 import { ContactComponent } from './components/contact/contact.component';
 import { RegisterComponent } from './components/register/register.component';
+import { SearchedComponent } from './components/searched/searched.component';
 
 
 
@@ -32,7 +33,8 @@ const routes: Routes = [
 
   {path:"contact",component:ContactComponent},
   {path:'register',component:RegisterComponent},
- 
+  {
+    path:"search",component:SearchedComponent}
 
 
 ];

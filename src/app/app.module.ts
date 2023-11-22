@@ -23,6 +23,8 @@ import { SustainabilityComponent } from './components/sustainability/sustainabil
 import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './components/register/register.component';
+import { SearchedComponent } from './components/searched/searched.component';
+import { OverlayComponent } from './components/overlay/overlay.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { RegisterComponent } from './components/register/register.component';
     IndustriesComponent,
     SustainabilityComponent,
     ContactComponent,
+    SearchedComponent,
+    OverlayComponent,
     
     
   ],

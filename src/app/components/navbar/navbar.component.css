@@ -177,7 +177,7 @@ form .idea .bookmark {
     padding: 20px 0px;
     margin-top: 10px;
     margin-left: 35px;
-    transform: scaleY(0);
+    transform: scaleY(-100%);
     transform-origin: top;
     position: relative;
     /* / z-index: -2; / */
@@ -202,7 +202,14 @@ form .idea .bookmark {
     height: auto;
     padding: 10px;
 }
-
+.nav-item a i {
+    top: -1.5rem;
+    height: 5;
+    background-color: rgb(0, 169, 179);
+    
+    padding: 10px; 
+  }
+  
 
 
 
@@ -270,7 +277,7 @@ form .idea .bookmark {
 
 }
 .accordion-button,.accordion-body,.accordion-collapse{
-   background-color: rgb(245, 244, 244);
+   background-color: white;
 }
 
 /* .accordion-button.collapsed + .accordion-collapse .accordion-body {

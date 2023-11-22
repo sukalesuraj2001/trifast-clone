@@ -2,12 +2,7 @@
     line-height: 1.7;
 }
 
-.form-inline{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .container{
     background-color: #f0f0f0;
     max-width:100%;
@@ -132,10 +127,11 @@ form.example input[type=text] {
     color: #069a9a;
 }
 
-.button-container button:hover,.button-container button:active{
+.button-container button:hover{
     text-decoration: underline;
     color:#002d74 ;
 }
+
 .title{
     margin-top: 2rem;
     margin-inline-start: 4rem !important; 
@@ -143,10 +139,14 @@ form.example input[type=text] {
 .title h5 {
     font-size:20px !important ;
 }
+
+
+
 /* cards */
 .card-container{
     margin-top: 30px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap; /* Allow cards to wrap to the next line on small screens */
     justify-content: space-evenly;
 }
