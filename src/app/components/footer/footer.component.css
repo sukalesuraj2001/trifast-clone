@@ -8,12 +8,11 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 2rem;
   }
   .left-section {
     width: 30%;
     height: auto;
-    padding: 4%;
+    padding: 2% 4%;
     box-sizing: border-box;
   }
   .company-img {
@@ -107,6 +106,13 @@
     color: black;
     font-size: 18px;
   }
+  .menu-links h1 a{
+    text-decoration: none;
+    color: black;
+  }
+  .menu-links h1 a:hover{
+    text-decoration: underline;
+  }
   .award-section {
     width: 100%;
     height: auto;
@@ -127,6 +133,12 @@
     margin-bottom: auto;
     display: block;
   }
+  .award-section .annual-report {
+    color: rgb(26, 159, 203);
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5%;
+  }
   .news-letter {
     background-color: rgb(0, 169, 179);
     color: white;
@@ -138,6 +150,9 @@
     padding: 5px;
     background-color: rgb(0, 45, 116);
     color: white;
+  }
+  .btn:hover{
+    background-color: rgb(1, 32, 81);
   }
   /* legal section start */
   .legal {
@@ -153,6 +168,8 @@
     margin: auto;
     display: inline-block;
     font-size: 14px;
+    border-right: 1px solid black;
+    padding:0 1% ;
   }
   
   .legal h4::after {
