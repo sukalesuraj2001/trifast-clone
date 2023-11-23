@@ -25,6 +25,14 @@ isbacked=false
   }
 
 
+  isAccordionOpen: boolean = false;
+
+
+  toggle(){
+    this.isAccordionOpen = !this.isAccordionOpen;
+
+   
+  }
 
   
   

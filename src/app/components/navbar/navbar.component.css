@@ -6,6 +6,10 @@
 .accordion {
     display: none;
 }
+.icons{
+    display: none;
+
+}
 
 .navbar img {
     border: none;
@@ -18,8 +22,9 @@
 
     /* margin-left: 19%; */
 
-    width: 100%;
+    width: 80vw;
 }
+
 .dropdown-item:hover {
     text-decoration: underline;
 }
@@ -131,26 +136,39 @@ form .idea .bookmark {
 .navbar-nav .nav-item:hover .dropdown-menu {
     display: block;
     left: 0;
-  
+
     margin-left: -20rem;
- 
-  
+
+
 
 }
-.one{
-    margin-left: -27rem !important;  
-}.two{
-    margin-left: -34rem !important;  
-}.three{
-    margin-left: -41rem !important;  
-}.four{
-    margin-left: -52.5rem !important;  
-}.five{
-    margin-left: -59rem !important;  
-}.six{
-    margin-left: -66.3rem !important;  
-}.seven{
-    margin-left: -75.4rem !important;  
+
+.one {
+    margin-left: -27rem !important;
+}
+
+.two {
+    margin-left: -34rem !important;
+}
+
+.three {
+    margin-left: -41rem !important;
+}
+
+.four {
+    margin-left: -52.5rem !important;
+}
+
+.five {
+    margin-left: -59rem !important;
+}
+
+.six {
+    margin-left: -66.3rem !important;
+}
+
+.seven {
+    margin-left: -75.4rem !important;
 }
 
 
@@ -159,15 +177,16 @@ form .idea .bookmark {
     display: none;
     /* border: 2px solid green; */
     position: absolute;
-    margin-top: 1rem; 
-    width: 90vw; 
-   
+    margin-top: 1rem;
+    width: 90vw;
+
     margin-left: -20rem;
     float: none;
-   
+
 
 
 }
+
 .navbar img {
     border: none;
 }
@@ -185,11 +204,12 @@ form .idea .bookmark {
 
 
 /* / accordian section start / */
-.navbar-collapse{
+.navbar-collapse {
     /* / border: 2px solid red; / */
 }
-.accordians{
-   
+
+.accordians {
+
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -209,6 +229,7 @@ form .idea .bookmark {
 }
 
 .accordion-body {
+    border-top: 2px solid #00a9b3;
     border-top: none;
 }
 
@@ -223,40 +244,155 @@ form .idea .bookmark {
 }
 
 .accordion-header {
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
 }
 
 
-.accordion-body  h3 a{
+.accordion-body h3 a {
     text-decoration: none;
     color: black;
 }
-.accordion-body  h3 a{
+
+.accordion-body h3 a {
     margin-left: 2rem;
 }
-.accordion-body  h3 a:hover{
+
+.accordion-body h3 a:hover {
     text-decoration: underline;
+    
     color: black;
 }
-.accordion-button:hover{
-    color: rgb(0,169,179);
-    font-size:1.05rem;
+
+.accordion-button:hover {
+    color: rgb(0, 169, 179);
+    font-size: 1.05rem;
 
 }
-.accordion-button,.accordion-body,.accordion-collapse{
-   background-color: rgb(245, 244, 244);
-}
 
-/* .accordion-button.collapsed + .accordion-collapse .accordion-body {
-    display: block;
-  } */
+.accordion-button,
+.accordion-body,
+.accordion-collapse {
+    background:whitesmoke;
  
+    border-bottom: 1px solid #00a9b3;
+  
+}
+
+.accordians{
+    background: whitesmoke;
+}
+
+.accordion-button.collapsed+.accordion-collapse .accordion-body {
+    display: block;
+}
+
+.navbar-collapse{
+    margin: 0;
+    padding: 0;
+    /* background: whitesmoke; */
+}
+
 
 
 /* ------------- */
 
 
 
+@media only screen and (max-width: 1408px) {
+    .navbar-nav {
+        margin-top: 14rem;
+
+        margin-left: -8%;
+
+        width: 80vw;
+    }
+
+    .dropdown-menu {
+
+        margin-left: 4rem !important;
+        width: 91vw;
+    }
+
+    .one {
+        margin-left: -4rem !important;
+    }
+
+    .two {
+        margin-left: -11rem !important;
+    }
+
+    .three {
+        margin-left: -18rem !important;
+    }
+
+    .four {
+        margin-left: -29rem !important;
+    }
+
+    .five {
+        margin-left: -35.5rem !important;
+    }
+
+    .six {
+        margin-left: -43rem !important;
+    }
+
+    .seven {
+        margin-left: -52rem !important;
+    }
+  
+
+}
+
+@media only screen and (max-width: 992px) {
+   
+    .navbar img{
+        /* margin-bottom: 2rem; */
+    }
+    .navbar-nav {
+        display: none;
+        margin-top: 8rem;
+        margin-left: 15%;
+        width: 80vw;
+    }
+
+    .dropdown-menu {
+        display: none;
+        margin-left: 4rem !important;
+        width: 91vw;
+    }
+    .accordion {
+        display: block;
+        margin-top: 2rem;
+      
+    }
+    .icons{
+        display: block;
+    
+    }
+    .icons{
+        margin-top: 2rem;
+        background: #ffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+      
+    
+}
+
+@media only screen and (max-width: 1408px) {
+    .navbar-nav {
+        margin-top: 12rem;
+
+        margin-left: -10rem;
+
+        /* margin-left: 19%; */
+
+        width: 80vw;
+    }
+   
+}
 
 
 
@@ -265,19 +401,15 @@ form .idea .bookmark {
 
 
 
-
-
+/* 
 
 @media only screen and (max-width: 1401px) {
 
-    /* .accordion {
-        display: block;
-        border: navajowhite;
-    } */
+ 
 
 
     .navbar-nav {
-        display: none;
+        display: block;
         margin-top: 2rem;
         margin-left: 0;
 
@@ -287,22 +419,24 @@ form .idea .bookmark {
         display: none;
         width: 80%;
         margin-left: 3rem;
-        /* / z-index: 1; / */
         position: static;
     }
 
-}
+} */
 
 @media only screen and (max-width: 768px) {
     .dropdown-menu {
-        visibility: hidden;
-        /* width: 80rem;
-        margin-left: 3rem;
-        z-index: 1;
-        position: static; */
+        display: none;
+
+    }
+
+    .accordion {
+        display: block;
+        border: navajowhite;
     }
 
 }
+
 /* @media only screen and (max-width: 1477px) {
     
 .navbar-nav {

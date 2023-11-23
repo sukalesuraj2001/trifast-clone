@@ -1,22 +1,33 @@
-<nav class="navbar navbar-expand-xxl  shadow-lg p-3 mb-5 bg-body-white rounded">
+<nav class="navbar navbar-expand-lg  shadow-lg p-3 mb-5 bg-body-white rounded">
     <div class="container-fluid">
         <img routerLink="/"
             src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png"
             class="img-thumbnail" alt="...">
-        <button class="navbar-toggler hamburger__button"  type="button"
+        <button class="navbar-toggler hamburger__button" (click)="toggle()" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
             <span class="navbar-toggler-icon hamburger__icon"></span>
             <!-- <span class="cross" >&times;</span> -->
         </button>
 
+      
+
         <!-- accordians start -->
-        <div class="collapse-expand-xl navbar-collapse" id="navbarSupportedContent">
-            <div class="accordians">
-                <div class="accordion accordion-flush shadow-lg p-3 mb-5 bg-body-tertiary rounded"
-                    id="accordionFlushExample">
+        <div class="collapse-expand-xl navbar-collapse" [ngStyle]="{'display': isAccordionOpen ? 'block' : 'none'}" id="navbarSupportedContent">
+           <!-- <div class="container-fluid">
+            <div class="icons">
+                <span><i class="fa-solid fa-clipboard fa-xl mt-4" style="color: #0d2959;"></i></span>
+                <span><i routerLink="/register" class="fa-solid fa-user fa-xl mt-4 "
+                        style="color: #062356;"></i></span>
+                        <span><i class="fa-solid fa-magnifying-glass fa-xl mt-4" style="color: #062356;"></i></span>
+            </div>
+           </div> -->
+            <div class="accordians "   style="background: whitesmoke;">
+                <div class="accordion accordion-flush "
+                    id="accordionFlushExample" style="background: whitesmoke;">
+                   <div class="aa1">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button  custom-btn collapsed" type="button"
+                            <button class="accordion-button  custom-btn collapsed" routerLink="/company" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
                                 Company
@@ -35,10 +46,11 @@
                             </div>
                         </div>
                     </div>
+                   </div>
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed"  routerLink="/investor" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
                                 Invester
@@ -61,7 +73,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/products" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
                                 Products
@@ -151,7 +163,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/knowledge-base" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFour" aria-expanded="false"
                                 aria-controls="flush-collapseFour">
                                 Knowledge Base
@@ -172,7 +184,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/service" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseFive" aria-expanded="false"
                                 aria-controls="flush-collapseFive">
                                 Services
@@ -193,7 +205,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" routerLink="/industries" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseSix" aria-expanded="false"
                                 aria-controls="flush-collapseSix">
                                 Industries
@@ -214,7 +226,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" type="button"  routerLink="/sustainability" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseSeven" aria-expanded="false"
                                 aria-controls="flush-collapseSeven">
                                 Sustainability
@@ -234,7 +246,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" routerLink="contact" type="button"
+                            <button class="accordion-button collapsed" routerLink="/contact" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
                                 aria-controls="flush-collapseEight">
                                 Contact
@@ -743,9 +755,9 @@
                 </li>
 
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Search</a>
-                </li>
+                </li> -->
             </ul>
 
 

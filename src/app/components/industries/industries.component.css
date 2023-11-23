@@ -142,7 +142,7 @@
   height: 500px;
 }
 
-/* ////////       fourth section       //////// */
+/* ////////       fourth section  img section     //////// */
 .img-section {
   width: 94%;
   height: auto;
@@ -151,12 +151,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* border: 1px solid red; */
 }
 .img-section div {
   width: 32%;
   height: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
+  /* border: 1px solid green; */
 }
 .img1 {
   width: 100%;
@@ -178,6 +180,7 @@
   opacity: 0.9;
   clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
   color: white;
+  /* border: 1px solid red; */
 }
 .triangle h3 {
   display: none;
@@ -223,7 +226,36 @@
     width: 100%;
   }
   .triangle-texts {
-    margin-top: 15%;
+    margin-top: 20%;
+  }
+  .triangle-texts h1,p{
+    margin-top: -10px;
+  }
+  .triangle-texts p{
+    font-size:  1rem;
+  }
+  .img-section{
+    width: 100%;
+    margin-top: 2%;
+  }
+  .img-section div{
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .triangle{
+    height: 90% !important;
+    top: 7%;
+    left: 0;
+  }
+  .triangle h5{
+    padding-top:50%;
+    padding-left: 2%;
+    font-size: 14px;
+  }
+  .triangle h3{
+    padding-top: 5% !important;
+    line-height: 20px;
   }
 }
 
