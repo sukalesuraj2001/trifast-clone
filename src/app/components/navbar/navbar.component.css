@@ -391,6 +391,9 @@ form .idea .bookmark {
 
         width: 80vw;
     }
+    #search{
+        display: none;
+    }
    
 }
 
