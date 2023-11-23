@@ -16,7 +16,7 @@
 
     margin-left: 15%;
 
-    margin-left: 19%;
+    /* margin-left: 19%; */
 
     width: 100%;
 }
@@ -128,72 +128,46 @@ form .idea .bookmark {
 
 
 /* / dropdown menu / */
-
-
 .navbar-nav .nav-item:hover .dropdown-menu {
     display: block;
     left: 0;
-    width: 95%;
-    transform: scaleY(1);
-    transform-origin: top;
-    position: absolute;
-    position: fixed;
-    float: none;
-    transition: transform 0.3s ease-in-out;
-
-
-
-
-
-
-
-
-
-    /* / position: relative; /
-    / transform: translateY(40%); /
-    / padding: 60px 0 67px 0; /
-    / left: 5%; / */
-}
-
-/* .navbar-nav .nav-item .dropdown-menu:hover {
-    display: block;
-    left: 0;
-    width: 95%;
-    transform: scaleY(1);
-    transform-origin: top;
-    position: fixed;
-    float:none;
-    transition: transform 0.3s ease-in;
-} */
-
-/* Add a class to handle the animation */
-
+  
+    margin-left: -20rem;
+ 
   
 
+}
+.one{
+    margin-left: -27rem !important;  
+}.two{
+    margin-left: -34rem !important;  
+}.three{
+    margin-left: -41rem !important;  
+}.four{
+    margin-left: -52.5rem !important;  
+}.five{
+    margin-left: -59rem !important;  
+}.six{
+    margin-left: -66.3rem !important;  
+}.seven{
+    margin-left: -75.4rem !important;  
+}
 
 
 
 .dropdown-menu {
-    padding: 20px 0px;
-    margin-top: 10px;
-    margin-left: 35px;
-    transform: scaleY(-100%);
-    transform-origin: top;
-    position: relative;
-    /* / z-index: -2; / */
-
-    /* / padding: 60px 0 67px 0; / */
-    /* / top: -12px; / */
-    /* / transition: transform ease-in-out .5s; / */
-    /* / transform: translateY(-100%); / */
-    /* / z-index: -5; / */
-    left: 5%;
-    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    /* border: 2px solid green; */
+    position: absolute;
+    margin-top: 1rem; 
+    width: 90vw; 
+   
+    margin-left: -20rem;
+    float: none;
+   
 
 
-    /* / transition: transform 0.3s ease-in; / */
 }
-
 .navbar img {
     border: none;
 }
@@ -202,14 +176,7 @@ form .idea .bookmark {
     height: auto;
     padding: 10px;
 }
-.nav-item a i {
-    top: -1.5rem;
-    height: 5;
-    background-color: rgb(0, 169, 179);
-    
-    padding: 10px; 
-  }
-  
+
 
 
 
@@ -277,7 +244,7 @@ form .idea .bookmark {
 
 }
 .accordion-button,.accordion-body,.accordion-collapse{
-   background-color: white;
+   background-color: rgb(245, 244, 244);
 }
 
 /* .accordion-button.collapsed + .accordion-collapse .accordion-body {
@@ -301,12 +268,12 @@ form .idea .bookmark {
 
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1401px) {
 
-    .accordion {
+    /* .accordion {
         display: block;
         border: navajowhite;
-    }
+    } */
 
 
     .navbar-nav {
@@ -336,3 +303,39 @@ form .idea .bookmark {
     }
 
 }
+/* @media only screen and (max-width: 1477px) {
+    
+.navbar-nav {
+    margin-top: 8rem;
+
+    margin-left: 0;
+
+   
+
+    width: 100%;
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    left: 0;
+  
+    margin-left: -8rem;
+ 
+  
+
+}
+.one{
+    margin-left: -12%!important;  
+}.two{
+    margin-left: -12rem !important;  
+}.three{
+    margin-left: -15rem !important;  
+}.four{
+    margin-left: -52.5rem !important;  
+}.five{
+    margin-left: -59rem !important;  
+}.six{
+    margin-left: -66.3rem !important;  
+}.seven{
+    margin-left: -75.4rem !important;  
+}
+} */
