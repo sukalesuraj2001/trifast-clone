@@ -357,6 +357,7 @@
 }
 .box2 h3:hover, .box3 h3:hover,.box6 h3:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .box3 {
@@ -398,7 +399,6 @@
     .text {
     padding: 2% 1%;
     }
-    
 }
 @media (max-width:760px) {
     /* ---------Main---------- */
