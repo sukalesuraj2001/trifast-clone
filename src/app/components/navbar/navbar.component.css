@@ -302,6 +302,9 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
     padding: 0;
   
 }
+.bolder-text{
+    /* font-weight: 500; */
+}
 
 
 
