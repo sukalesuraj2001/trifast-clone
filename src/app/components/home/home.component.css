@@ -775,10 +775,11 @@ h2 {
   width: 92.3%;
   height: 749px;
   background-color: rgb(239, 237, 232);
+
   margin: 0;
   position: relative;
   top: -46.8rem;
-  left: 7.3rem;
+  left: 7.7%;
   clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
   opacity: 0.8;
 }
