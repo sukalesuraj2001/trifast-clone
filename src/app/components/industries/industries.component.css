@@ -170,36 +170,91 @@
   height: 100%;
   object-fit: cover;
 }
+
 .triangle {
   width: 100% !important;
-  height: 250px !important;
+  height: 100% !important;
+  display: flex;
   position: absolute;
-  top: 30px;
+  top: -6.5%;
   left: 0;
-  background-color: #002d74;
-  opacity: 0.9;
-  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  opacity: 1;
   color: white;
-  /* border: 1px solid red; */
+  background: linear-gradient(
+    30deg,
+    rgba(51, 154, 206, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+.triangle-second {
+  background: linear-gradient(
+    30deg,
+    rgba(5, 158, 169, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
+}
+.triangle-third {
+  background: linear-gradient(
+    30deg,
+    rgba(222, 142, 26, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
+}
+.triangle-four {
+  background: linear-gradient(
+    30deg,
+    rgba(114, 54, 134, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
+}
+.triangle-five {
+  background: linear-gradient(
+    30deg,
+    rgba(18, 58, 120, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
+}
+.triangle-six {
+  background: linear-gradient(
+    30deg,
+    rgba(46, 133, 195, 0.904) 50%,
+    rgba(255, 255, 255, 0.225) 50%
+  );
+  background-size: 200% 200%;
 }
 .triangle h3 {
   display: none;
 }
 .triangle h5 {
-  padding-top: 180px;
-  padding-left: 40px;
+  position: absolute;
+  bottom: 20%;
+  left: 3%;
+  word-wrap: break-word;
+  width: 50%;
+  height: fit-content;
+  padding-bottom: 0;
   font-size: 16px;
 }
 .img1:hover .triangle {
   height: 100% !important;
   top: 0 !important;
   margin-top: 0;
-  transition-duration: 0.1s;
-  clip-path: none;
+  transition-duration: 0.4s;
+  background-position: 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .img1:hover h3 {
   display: block;
-  padding: 50px;
+  padding: 10%;
 }
 .img1:hover h5 {
   display: none;
@@ -228,32 +283,32 @@
   .triangle-texts {
     margin-top: 20%;
   }
-  .triangle-texts h1,p{
+  .triangle-texts h1,
+  p {
     margin-top: -10px;
   }
-  .triangle-texts p{
-    font-size:  1rem;
+  .triangle-texts p {
+    font-size: 1rem;
   }
-  .img-section{
+  .img-section {
     width: 100%;
     margin-top: 2%;
   }
-  .img-section div{
+  .img-section div {
     height: auto;
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .triangle{
-    height: 90% !important;
-    top: 7%;
+  .triangle {
+    height: 100% !important;
+    top: -3%;
     left: 0;
   }
-  .triangle h5{
-    padding-top:50%;
+  .triangle h5 {
     padding-left: 2%;
     font-size: 14px;
   }
-  .triangle h3{
+  .triangle h3 {
     padding-top: 5% !important;
     line-height: 20px;
   }
@@ -319,5 +374,10 @@
   }
   .triangle h5 {
     padding-left: 20px;
+  }
+
+  /* ///////////////// section fourth img section/////////// */
+  .triangle {
+    /* border: 1px solid red; */
   }
 }
