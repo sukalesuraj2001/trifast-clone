@@ -221,3 +221,12 @@
     }
   }
   
+
+  .copyright{
+  
+    height: 10vh;
+  }
+  .copyright p{
+    text-decoration: underline;
+    cursor: pointer;
+  }
