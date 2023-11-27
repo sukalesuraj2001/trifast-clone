@@ -1,11 +1,11 @@
-*{
+* {
     line-height: 1.7;
 }
 
 
-.container{
+.container {
     background-color: #f0f0f0;
-    max-width:100%;
+    max-width: 100%;
     height: auto;
     margin: auto;
     font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -13,260 +13,355 @@
     font-weight: 400;
     /* border: 4px rgb(24, 12, 12) solid; */
 }
-.row1{
+
+.row1 {
+    /* padding: 1% 0%; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between !important;
     /* border: 1px red solid; */
+    margin: 1% 1%;
+    padding: 0% 0%
     
 }
 
-.input-group{
-    margin: 20px;
-    padding: 7px;
+.input-group {
+    margin: 2% 0 2% 0%;
+    box-sizing: border-box;
+    padding: 1% 0;
+    display: flex;
     /* height: 40% !important; */
     /* background-color:darkblue !important; */
-    border-radius: 4px;
-    height: 4rem;
-    background-color: darkblue !important;
+    height: 20%;
+    /* background-color: darkblue !important; */
     border: none;
-    
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
+    width: 35%;
 }
-.input-group input:hover{
-    background-color:#062558;
+
+.input-group input:hover {
+    background-color: #062558;
 }
 
 
-.input-group input{
+.input-group input {
     background-color: darkblue;
     border: none;
     color: white;
-    width: 93%;
+    width: 85%;
+    /* margin: auto; */
+    height: auto;
+    padding: 2%;
+    /* margin-left: 5%; */
+    margin-left: 0;
+    border-radius: 5px;
     /* align-items: center; */
-    margin-top: 0.9rem !important;
+    /* margin-top: 0.2rem !important; */
     /* border: 2px solid red; */
 }
 
 form input:focus {
-    outline: none; /* Remove the default focus outline */
-    border: none; /* Remove the border on focus */
+    outline: none;
+    /* Remove the default focus outline */
+    border: none;
+    /* Remove the border on focus */
 }
-.input-group ::placeholder{
+
+.input-group ::placeholder {
     color: white;
     /* border: 4px solid rgb(17, 14, 14); */
-   
+
 }
-.input-group button{
+
+.input-group button {
     /* border: 4px solid rgb(17, 14, 14) !important; */
-    margin-left: 14rem !important;
+    /* margin-left: 14rem !important; */
     background-color: darkblue;
     color: white;
+    width: 10% !important;
     border: none;
-    padding-top: 0rem;
-    margin-top:-2rem;
+    padding: 1%;
+    border-radius: 5px;
+    /* margin-top: 0.2rem !important; */
+    /* margin-top:-2rem; */
     float: right;
+    height: auto;
+}
+
+
+.title a {
+    /* border: 1px solid red; */
+    text-decoration: none !important;
+    color: #069a9a !important;
+    font-size: 16px !important;
+}
+
+.title a:hover {
+    text-decoration: underline !important;
+    color: #062558 !important;
+    font-size: 16px !important;
 }
 
 
 
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    margin-left: -35rem;
-    width: 28rem;
-    height: 3rem;
-    color: #fff;
-    background-color: #002d74;
-    border-color: #002d74;
-  }
-  
-  form.example button {
-    
-    width: 20%;
-    padding: 10px;
-    height: 3rem;
-    color: white;
-    font-size: 17px;
-    border: 1px solid #002d74;
-    border-left: none;
-    cursor: pointer;
-    background-color: #002d74;
-    border-color: #002d74;
-  }
-  
-  form.example button:hover {
-    background: #0b7dda;
-  }
-  
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  
-
-
-.button-container{
-    width: auto;
+.button-container {
+    width: 65%;
     display: flex;
     align-items: center;
     margin-top: 10px;
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
 }
 
-.button-container button{
-    margin: 0px 22px 0px 22px;
-    width: 180px;
+.button-container div {
+    /* border: 1px solid red; */
+    width: 24%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.button-container button {
+    margin: auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     border: none;
     padding-top: 10px;
-    border-top: 1px  solid black !important;
+    border-top: 1px solid black !important;
     color: #069a9a;
+    font-weight:500 !important;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    position: relative; 
+    /* border: 1px solid red;     */
 }
-
-.button-container button:hover{
+.button-container a{
+    color: #069a9a;
+    text-decoration: none;
+}
+.button-container a:hover{
     text-decoration: underline;
-    color:#002d74 ;
+    color: rgb(2, 71, 2);
 }
 
-.title{
-    margin-top: 2rem;
-    margin-inline-start: 4rem !important; 
+/* .button-container button:hover,
+.button-container button:active {
+    text-decoration: underline;
+    color: rgb(2, 71, 2);
+} */
+
+
+.title {
+    margin-top: 1rem;
+    margin-inline-start: 2rem !important;
 }
+
 .title h5 {
-    font-size:20px !important ;
+    font-size: 18px !important;
 }
-
-
 
 /* cards */
-.card-container{
+.card-container {
     margin-top: 30px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line on small screens */
+    flex-wrap: wrap;
+    /* Allow cards to wrap to the next line on small screens */
     justify-content: space-evenly;
 }
-.card{
+
+.card {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
     margin-left: 10px;
     border: none;
-    width: 23% !important; /* Set a maximum width for the card */
+    width: 23% !important;
+    /* Set a maximum width for the card */
     /* width: calc(33.333% - 20px); Adjust the width of each card based on the margin and number of cards per row */
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px inset !important;
     /* border: 2px solid red; */
 }
-.card img{
-    border-radius: 0px; /* Add border-radius to the image for a rounded appearance */
+
+.card img {
+    border-radius: 0px;
+    /* Add border-radius to the image for a rounded appearance */
     width: 100%;
-    height: auto; /* Allow the image to adjust its height accordingly */
+    height: auto;
+    /* Allow the image to adjust its height accordingly */
     vertical-align: middle;
 }
-.card-body{
-margin-right: 0%;
-width: 100%;
-height: 100%;
-margin-inline-start: -1rem;
 
-/* border: 2px solid rgb(72, 67, 67); */
+.card-body {
+    margin-right: 0%;
+    width: 100%;
+    height: 100%;
+    margin-inline-start: -1rem;
+    /* border: 2px solid rgb(72, 67, 67); */
 }
-.card-body a{
+
+.card-body a {
     font-size: 16px;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-
-.card-title a{
-     margin-left: 0px;
-     /* border: 2px solid red; */
-     color: #38a2dc;
-     font-size: 1.7em;
-     font-weight: 700;
+.card-title a {
+    
+    margin-left: 0px;
+    /* border: 2px solid red; */
+    color: #38a2dc;
+    font-size: 1.7em;
+    font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
 }
-.card-body a:hover,.card-body a:active{
+
+.card-body a:hover {
     text-decoration: underline;
 }
+
 .subtitle a {
     /* border:2px solid red; */
-    text-decoration: underline; /* Add underline to all links */
+    text-decoration: underline;
+    /* Add underline to all links */
 }
 
-.subtitle a:hover{
-    text-decoration: none; 
+.subtitle a:hover {
+    text-decoration: none;
 }
- 
 
 
-@media only screen  and (max-width:768px){
-    .row1{
-    flex-direction: column;
-    align-items: stretch;
+
+@media only screen and (max-width:768px) {
+    .row1 {
+        /* display: block; */
+        padding: 2% 0 !important;
+        flex-direction: column;
+        /* align-items: stretch;border: 1px solid red !important; */
+
     }
-    .title h5{
-        /* margin-left: -0.5rem; */
+
+    .title a .title h5 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        list-style: none;
+        background-color: transparent;
+        border-radius: 0.25rem;
+            /* margin-bottom: 3rem !important; */
     }
-    .title a{
-        margin-left: 0rem;
-    }
-    .input-group input{
-        margin-top: 0.8rem;
-    }
+
     /* .input-group input:visited{
         border: none;
     } */
-    
-    .input-group{
-        margin-left: 0.1rem !important;
-    width: 100%;
-    align-items:start ;
-    margin-bottom: 1rem;
+
+    .input-group {
+        /* margin-left: 0.1rem !important; */
+        width: 103%;
+        align-items: start;
+        margin-bottom: 3%;
+        /* border: 1px solid red; */
+        margin: 0;
+        /* margin: 7% 0%; */
+        padding: 4% 0%;
+        /* margin: 7% 0%; */
+        margin: 5% 0%;
     }
-    .input-group button{
+
+    .input-group input {
+        padding: 0.9rem !important;
+        height: auto;
+        width: 85%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+        /* margin-left: 2%; */
+    }
+
+    .input-group button {
         /* border: 2px solid red; */
-        float: right;
-        margin-top: -2rem;
+        /* float: right; */
+        height: auto;
+        padding: 0.88rem;
+        padding-left: 0;
+        margin-bottom: 0%;
+        margin-top: 3%;
     }
-    .card-container{
+
+    .card-container {
         margin-left: -1rem;
         margin-top: 7rem;
-        
+
     }
-    .card{
+
+    .card {
         width: 85% !important;
         margin-top: -2.5rem !important;
-    margin-bottom: 3rem !important;
+        margin-bottom: 3rem !important;
+        /* box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset !important; */
     }
-    .card-title, a{
+
+    .card-title,
+    a {
         font-size: 16px !important;
         font-weight: 200;
     }
-    
 
-    .card-body h5{
+
+    .card-body h5 {
         margin-left: 0rem;
         margin-top: 2rem;
     }
-    .button-container{
-    flex-direction: column;
-    align-items: center;
+
+    .button-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+        align-items: center;
+        /* border: 1px solid green !important; */
+        display: block;
+        margin: -5% 0%;
+        padding: 5% 3%;
     }
-    .button-container button{
-        width: 17rem;
+
+    .button-container div {
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: 1% auto 1% 0;
+        /* margin: -4% 10%;
+        padding: 5% 15%; */
     }
-    .button-container button{
-       /* width: 100%;  */
-       border-top: 1px  solid black !important;
+    .button-container .span{
+        /* border: 1px solid red; */
     }
-    .card-body,.card-title a{
+
+    .button-container button {
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 0;
+    }
+
+    .button-container button {
+        /* width: 100%;  */
+        border-top: 1px solid black !important;
+    }
+
+    .card-body,
+    .card-title a {
         margin-inline-start: -0.5rem;
     }
-    .card-body, a{
+
+    .card-body,
+    a {
         margin-inline-start: -0.5rem;
         margin-top: -2rem;
+    }
+
+    .button-container span {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:1400px){
+    .row1{
+        margin: 10% 0% 0% 0% !important;
     }
 }
