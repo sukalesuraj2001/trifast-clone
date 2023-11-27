@@ -103,7 +103,6 @@ form input:focus {
 }
 
 
-
 .button-container {
     width: 65%;
     display: flex;
@@ -229,14 +228,12 @@ form input:focus {
 }
 
 
-
 @media only screen and (max-width:768px) {
     .row1 {
         /* display: block; */
         padding: 2% 0 !important;
         flex-direction: column;
         /* align-items: stretch;border: 1px solid red !important; */
-
     }
 
     .title a .title h5 {

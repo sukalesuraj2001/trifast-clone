@@ -1,88 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.products img{
+
+.products img {
     width: 98%;
 
 }
 
 
-.accordians{
+.accordians {
     display: none;
 }
-.navbar-brand{
+
+.navbar-brand {
     border: 2px solid green;
 }
-.container-fluid img{
-    
-cursor: pointer;
-   border: none;
+
+.container-fluid img {
+
+    cursor: pointer;
+    border: none;
 }
 
 .navbar-nav .nav-item.dropdown:hover .nav-link {
-    color: blue !important; 
+    color: blue !important;
 }
 
 .navbar-nav .nav-item.dropdown:hover .dropdown-toggle::after {
-    transform: scaleY(-1); 
-    transition: transform 0.5s ease; 
+    transform: scaleY(-1);
+    transition: transform 0.5s ease;
 
 }
 
-.main-line{
-   height: 2px;
+.main-line {
+    height: 2px;
     width: 15vw;
     margin-bottom: 3px;
 }
- .menus {
+
+.menus {
     /* width: 100%; */
     height: 10vh;
     margin-top: -7rem;
     margin-left: -45rem;
     display: flex;
-    align-items: center; 
+    align-items: center;
     /* border: 2px solid blueviolet; */
- 
 }
-.menus .bookmark p{
+
+.menus .bookmark p {
     color: #ffff;
     /* margin-top: 1rem; */
     margin-left: -1rem;
 
     background-color: gray;
 }
+
 .menus .img {
     margin-top: -0.5rem;
 }
 
 
-.label p{
-   color: rgb(0,169,179);
-   font-weight: bold;
-   font-size: 1.275rem;
+.label p {
+    color: rgb(0, 169, 179);
+    font-weight: bold;
+    font-size: 1.275rem;
 }
-.label h5{
-    color: rgb(0,169,179);
+
+.label h5 {
+    color: rgb(0, 169, 179);
     margin-top: 1rem;
     font-size: 0.8rem;
 }
-.icon{
-   margin-left: 7rem;
+
+.icon {
+    margin-left: 7rem;
 }
-.ruler{
-   margin-left: -25rem;
+
+.ruler {
+    margin-left: -25rem;
     height: 5px;
     color: black;
 }
+
 .with-line {
     margin-top: 1rem;
     height: 35px;
-    border-right: 1px solid black; 
-    padding-right: 10px; 
+    border-right: 1px solid black;
+    padding-right: 10px;
     margin-right: 10px;
 }
-i{
+
+i {
     cursor: pointer;
 }
 
@@ -110,17 +120,17 @@ i{
 
 
 .navbar-nav li {
-    
+
     font-size: 1.125rem;
     margin-top: 8rem;
     /* border: 2px solid white; */
 
-  
+
 }
 
-form{
+form {
     /* position: absolute; */
-  /* margin-left: -10rem;
+    /* margin-left: -10rem;
   margin-top: -5rem;
     border: 2px solid yellow; */
 }
@@ -139,41 +149,41 @@ form{
 }
 
 .one {
-/* border: 2px solid red !important; */
-right: calc(((100% - 1550px)/2) + 115px ) !important;
-    
+    /* border: 2px solid red !important; */
+    right: calc(((100% - 1550px)/2) + 115px) !important;
+
 }
 
 .two {
     /* border: 2px solid green !important; */
-    right: calc(((100% - 1680px)/2) + 280px ) !important;
+    right: calc(((100% - 1680px)/2) + 280px) !important;
 }
 
 .three {
     /* border: 2px solid pink !important; */
-    right: calc(((100% - 1680px)/2) + 585px ) !important;
+    right: calc(((100% - 1680px)/2) + 585px) !important;
 }
 
 .four {
     /* border: 2px solid blue !important; */
-    right: calc(((100% - 1680px)/2) + 488px ) !important;
+    right: calc(((100% - 1680px)/2) + 488px) !important;
 }
 
 .five {
     /* border: 2px solid black !important; */
-    right: calc(((100% - 1680px)/2) + 390px ) !important;
+    right: calc(((100% - 1680px)/2) + 390px) !important;
 }
 
 .six {
     /* border: 2px solid gold !important; */
-    right: calc(((100% - 1680px)/2) + 710px ) !important;
-    
+    right: calc(((100% - 1680px)/2) + 710px) !important;
+
 }
 
 .seven {
     /* border: 2px solid red !important; */
-    right: calc(((100% - 1680px)/2) + 830px ) !important;
-    
+    right: calc(((100% - 1680px)/2) + 830px) !important;
+
 }
 
 
@@ -184,40 +194,47 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
     margin: auto;
     /* border: 2px solid yellow; */
     position: absolute;
-    
+
     margin-top: 1rem;
     /* z-index: -1; */
     width: 85vw;
-    right: calc(((80% - 1550px)/2) + 5px );
-    
-   
+    right: calc(((80% - 1550px)/2) + 5px);
+
+
     /* margin-left: -25rem; */
     float: none;
-}.dropdown-menu h4{
+}
+
+.dropdown-menu h4 {
 
     margin-top: 2rem;
 }
+
 .dropdown-menu h4 a {
     font-weight: 500;
     color: #28348a;
     font-size: 1.2rem;
     text-decoration: none;
 }
-.dropdown-menu h4 a:hover{
-   
+
+.dropdown-menu h4 a:hover {
+
     text-decoration: underline;
 }
-.dropdown-menu h5 a{
+
+.dropdown-menu h5 a {
     /* font-weight: 400; */
     color: black;
     font-size: 1rem;
     text-decoration: none;
 }
-.dropdown-menu h5 a:hover{
-   
+
+.dropdown-menu h5 a:hover {
+
     text-decoration: underline;
 }
-.products h5 a{
+
+.products h5 a {
     color: #28348a;
     font-weight: 500;
 
@@ -279,7 +296,7 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
 
 .accordion-body h3 a:hover {
     text-decoration: underline;
-    
+
     color: black;
 }
 
@@ -292,13 +309,13 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
 .accordion-button,
 .accordion-body,
 .accordion-collapse {
-    background:whitesmoke;
- 
+    background: whitesmoke;
+
     border-bottom: 1px solid #00a9b3;
-  
+
 }
 
-.accordians{
+.accordians {
     background: whitesmoke;
 }
 
@@ -306,10 +323,10 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
     display: block;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     margin: 0;
     padding: 0;
-  
+
 }
 
 
@@ -319,49 +336,56 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
 
     .menus {
         /* width: 100%; */
-    
+
         margin-top: -7rem;
         margin-left: -50rem;
-       
-     
+
+
     }
-    #logo-img{
+
+    #logo-img {
         /* width: 10%; */
         /* display: none; */
     }
-    #contact{
+
+    #contact {
         /* display: none; */
     }
-    
-.navbar-nav li {
-    
-    font-size: 1rem;
-    margin-top: 8rem;
-    /* border: 2px solid white; */
 
-  
-}
-.dropdown-menu{
-    right: calc(((80% - 1550px)/2) + 35px );
+    .navbar-nav li {
+
+        font-size: 1rem;
+        margin-top: 8rem;
+        /* border: 2px solid white; */
+
+
+    }
+
+    .dropdown-menu {
+        right: calc(((80% - 1550px)/2) + 35px);
+    }
+
+
+
 }
 
- 
-
-}
 @media only screen and (max-width: 991px) {
-    .navbar-nav{
+    .navbar-nav {
         display: none;
         visibility: hidden;
     }
+
     .dropdown-menu {
         display: none;
 
     }
-    #main-menus{
+
+    #main-menus {
         display: none;
     }
-    .accordians{
+
+    .accordians {
         display: block;
     }
-   
+
 }
