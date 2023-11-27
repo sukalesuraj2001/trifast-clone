@@ -1,28 +1,14 @@
-<nav class="navbar navbar-expand-lg  shadow-lg p-3  bg-body-white rounded">
+<nav class="navbar navbar-expand-lg navbar-white bg-white shadow p-3  rounded">
     <div class="container-fluid">
-        <img routerLink="/"
-            src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png"
+        <img id="logo-img" routerLink="/" src="https://trfastenings.blob.core.windows.net/sitecontent/358606d6843655b2345bcd7a37f3944b.png"
             class="img-thumbnail" alt="...">
-        <button class="navbar-toggler hamburger__button" (click)="toggle()" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
-            <span class="navbar-toggler-icon hamburger__icon"></span>
-            <!-- <span class="cross" >&times;</span> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-      
-
-        <!-- accordians start -->
-        <div class="collapse-expand-xl navbar-collapse" [ngStyle]="{'display': isAccordionOpen ? 'block' : 'none'}" id="navbarSupportedContent">
-           <!-- <div class="container-fluid">
-            <div class="icons">
-                <span><i class="fa-solid fa-clipboard fa-xl mt-4" style="color: #0d2959;"></i></span>
-                <span><i routerLink="/register" class="fa-solid fa-user fa-xl mt-4 "
-                        style="color: #062356;"></i></span>
-                        <span><i class="fa-solid fa-magnifying-glass fa-xl mt-4" style="color: #062356;"></i></span>
-            </div>
-           </div> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="accordians "   style="background: whitesmoke;">
-                <div class="accordion accordion-flush "
+                <div class="accordion accordion-flush shadow p-3  rounded "
                     id="accordionFlushExample" style="background: whitesmoke;">
                    <div class="aa1">
                     <div class="accordion-item">
@@ -265,529 +251,363 @@
 
 
 
-            <!-- main menus start -->
 
+            <!-- main menu start -->
+            <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto me-5" id="main-menus">
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" routerLink="/company" id="navbarDropdown" role="button"
-                        aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-dark" routerLink="/company" id="navbarDropdown"
+                        role="button" aria-expanded="false">
                         Company
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu  shadow p-3 mb-5 bg-body-white rounded" aria-labelledby="navbarDropdown">
                         <div class="container-fluid">
-                            <div class="row  mt-4">
+                            <div class="row  ">
                                 <div class="col-md-3  ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Newsroom &
-                                            Media</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Press News</a></li>
-                                    <li><a class="dropdown-item" href="#">Product News</a></li>
-                                    <li><a class="dropdown-item" href="#">Media Library</a></li>
-                                    <li><a class="dropdown-item" href="#">Invester News</a></li>
-                                    <li><a class="dropdown-item" href="#">Company Literature</a></li>
-
-                                    <li><a class="dropdown-item mt-5 mb-5 text-primary fw-medium" href="#">KPI's</a>
-                                    </li>
-                                    <hr>
+                                    <h4> <a href="#">Newsroom & media</a></h4>
+                                    <hr class="main-line" >
+                                    <h5><a href="#"> Press releases</a></h5>
+                                    <h5><a href="#">Product news</a></h5>
+                                    <h5><a href="#">Media library</a></h5>
+                                    <h5><a href="#">Investor news</a></h5>
+                                    <h5><a href="#">Company literature</a></h5>
+                                    <h4 class="mt-5"> <a href="#">KIP's</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Leadership</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">The plc board</a></li>
-                                    <li><a class="dropdown-item" href="#">Exicutive Committee</a></li>
-                                    <li><a class="dropdown-item" href="#">Operational Management</a></li>
+                                <div class="col-md-3  ">
 
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Business Model</a>
-                                    </li>
-                                    <hr>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Documentaion and
-                                            Policies</a></li>
-                                    <hr>
+                                    <h4> <a href="#"> Leadership</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#"> The plc Board</a></h5>
+                                    <h5><a href="#"> Executive Committee</a></h5>
+                                    <h5><a href="#">
+                                            Operational Management</a></h5>
 
+                                    <h4 class="mt-5"> <a href="#">Business model</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Acquasitions</a></li>
-                                    <hr>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Documentation and policies
 
+                                        </a></h4>
+                                      <hr class="main-line" >
                                 </div>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Acquisitions</a></h4>
+                                      <hr class="main-line" >
+                                </div>
+
                             </div>
                         </div>
                     </ul>
 
                 </li>
-
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown  ">
                     <a class="nav-link dropdown-toggle" routerLink="/investor" id="navbarDropdown" role="button"
                         aria-expanded="false">
-                        Investers
+                        Investors
                     </a>
-                    <ul class="dropdown-menu one" aria-labelledby="navbarDropdown">
-                        <div class="container">
-                            <div class="row mt-4">
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">What Sets
-                                            Us Apart</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">RNS</a></li>
-                                    <hr>
-                                </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Share
-                                            Holder Information</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Invester Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Frequently Asked Questions</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Adviser</a></li>
-                                    <li><a class="dropdown-item" href="#">Guidance to shareholder</a></li>
-                                    <li><a class="dropdown-item" href="#">Glossary of terms</a></li>
-                                    <li><a class="dropdown-item" href="#">Shareholders mettings</a></li>
-                                    <li><a class="dropdown-item" href="#">Total Shareholder returns</a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Equity
-                                            Research</a></li>
-                                    <hr>
-                                </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Goverance</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Committee</a></li>
-                                    <li><a class="dropdown-item" href="#">Compilance statement</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Renumatation policies</a></li>
-                                    <li><a class="dropdown-item" href="#">Our stakeholders</a></li>
-                                    <li><a class="dropdown-item" href="#">Capital Allocations</a></li>
-                                    <li><a class="dropdown-item" href="#">Section 172 Statements</a></li>
-                                    <li><a class="dropdown-item mt-5  text-primary fw-medium" href="#">Share
-                                            Data</a></li>
-                                    <hr>
-                                </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Financial
-                                            Informmation</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Analyasisi Tools-Financial</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Financial Calender</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Letest Financial Results</a></li>
+                    <ul class="dropdown-menu one shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
+                        <div class="container-fluid">
+                            <div class="row  ">
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#">What sets us apart</a></h4>
+                                      <hr class="main-line" >
 
-                                    <li><a class="dropdown-item mt-5" href="#">Reports and Presentations</a>
-                                    </li>
-                                    <hr>
+                                    <h4 class="mt-5"> <a href="#">RNS</a></h4>
+                                      <hr class="main-line" >
                                 </div>
+                                <div class="col-md-3  ">
+
+                                    <h4> <a href="#"> Shareholder information</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#">Frequently asked questions</a></h5>
+                                    <h5><a href="#">Advisers</a></h5>
+                                    <h5><a href="#">
+                                            Glossary of terms</a></h5>
+                                    <h5><a href="#">Shareholder meetings</a></h5>
+                                    <h5><a href="#">Total shareholder return</a></h5>
+                                    <h4 class="mt-5"> <a href="#">Equity research</a></h4>
+                                      <hr class="main-line" >
+                                </div>
+                                <div class="col-md-3  ">
+
+                                    <h4> <a href="#"> Governance</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#">Committees</a></h5>
+                                    <h5><a href="#"> Compliance statement</a></h5>
+                                    <h5><a href="#">
+                                            Remuneration policy</a></h5>
+                                    <h5><a href="#"> Our stakeholders</a></h5>
+                                    <h5><a href="#">Capital allocation</a></h5>
+
+                                    <h4 class="mt-5"> <a href="#">Share data</a></h4>
+                                      <hr class="main-line" >
+
+
+
+                                </div>
+                                <div class="col-md-3  ">
+
+
+
+
+
+                                    <h4> <a href="#"> Financial information</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#"> Analysis tool - financial</a></h5>
+                                    <h5><a href="#"> Financial calendar
+                                        </a></h5>
+                                    <h5><a href="#">
+                                            Remuneration policy</a></h5>
+                                    <h5><a href="#"> Latest financial results</a></h5>
+
+                                    <h4 class="mt-5"> <a href="#">Reports and presentations</a></h4>
+                                      <hr class="main-line" >
+
+                                </div>
+
                             </div>
                         </div>
                     </ul>
                 </li>
-
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown  ">
                     <a class="nav-link dropdown-toggle" routerLink="/products" id="navbarDropdown" role="button"
                         aria-expanded="false">
-                        Products
+                        Product
                     </a>
-                    <ul class="dropdown-menu two" aria-labelledby="navbarDropdown">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="https://trfastenings.blob.core.windows.net/menu/3c4252564cd04dd291300e0b4c104b76.jpg"
-                                        class="img-thumbnail" alt="...">
-                                    <li><a class="dropdown-item text-primary fw-medium " href="#">Screw and
-                                            Bolts</a></li>
-
-                                </div>
-                            </div>
-                        </div>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " routerLink="/knowledge-base" id="navbarDropdown" role="button"
-                        aria-expanded="false">
-                        Knowledge Based
-                    </a>
-                    <ul class="dropdown-menu three" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu two shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
                         <div class="container-fluid">
-                            <div class="row mt-4">
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary" href="#">Engineearing Data</a>
-                                    </li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Gauge Conversion Tables</a></li>
-                                    <li><a class="dropdown-item" href="#">Fastners standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Decimal Equivalents</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Thread
-                                            geomatries</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Metric Caorse Standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Metric Fine</a></li>
-                                    <li><a class="dropdown-item" href="#">Thread conversion table </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Plast-Tech@ 30
-                                            installation </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Screws
-                                            for plastic to JIS </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Design
-                                            guide </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
+                            <div class="row  ">
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
                                 </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary" href="#">Tolerances</a>
-                                    </li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Friction coefficients steel</a></li>
-                                    <li><a class="dropdown-item" href="#">Fastners standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Decimal Equivalents</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Thread
-                                            geomatries</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Metric Caorse Standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Metric Fine</a></li>
-                                    <li><a class="dropdown-item" href="#">Thread conversion table </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Plast-Tech@ 30
-                                            installation </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Screws
-                                            for plastic to JIS </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Design
-                                            guide </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
                                 </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary" href="#">Engineearing Data</a>
-                                    </li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Gauge Conversion Tables</a></li>
-                                    <li><a class="dropdown-item" href="#">Fastners standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Decimal Equivalents</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Thread
-                                            geomatries</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Metric Caorse Standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Metric Fine</a></li>
-                                    <li><a class="dropdown-item" href="#">Thread conversion table </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Plast-Tech@ 30
-                                            installation </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Screws
-                                            for plastic to JIS </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Design
-                                            guide </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
                                 </div>
-                                <div class="col-md-3">
-                                    <li><a class="dropdown-item text-primary" href="#">Engineearing Data</a>
-                                    </li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Gauge Conversion Tables</a></li>
-                                    <li><a class="dropdown-item" href="#">Fastners standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Decimal Equivalents</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Thread
-                                            geomatries</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Metric Caorse Standers</a></li>
-                                    <li><a class="dropdown-item" href="#">Metric Fine</a></li>
-                                    <li><a class="dropdown-item" href="#">Thread conversion table </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Plast-Tech@ 30
-                                            installation </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Screws
-                                            for plastic to JIS </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Design
-                                            guide </a></li>
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Fastners for
-                                            Plastic </a></li>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
                                 </div>
+
+                            </div>
+                            <div class="row  ">
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
+                                </div>
+                                <div class="col-md-3  ">
+                                    <img src="..." class="img-fluid" alt="...">
+                                </div>
+
                             </div>
                         </div>
                     </ul>
-                </li>
 
-                <li class="nav-item dropdown">
+                </li>
+                <li class="nav-item dropdown  ">
+                    <a class="nav-link dropdown-toggle" routerLink="/knowledge-base" id="navbarDropdown" role="button"
+                        aria-expanded="false">
+                        Knowledge
+                    </a>
+                    <ul class="dropdown-menu five shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
+                        <div class="container-fluid">
+                            <div class="row  ">
+                                <div class="col-md-3  ">
+                                    <p> Knowledge base.</p>
+                                </div>
+                                <div class="col-md-3  ">
+                                    <p> Knowledge base.</p>
+                                </div>
+                                <div class="col-md-3  ">
+                                    <p> Knowledge base.</p>
+                                </div>
+                                <div class="col-md-3  ">
+                                    <p> Knowledge base.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </ul>
+
+                </li>
+                <li class="nav-item dropdown  ">
                     <a class="nav-link dropdown-toggle" routerLink="/service" id="navbarDropdown" role="button"
                         aria-expanded="false">
                         Services
                     </a>
-                    <ul class="dropdown-menu four" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu four shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
                         <div class="container-fluid">
-                            <div class="row  mt-4">
+                            <div class="row  ">
                                 <div class="col-md-3  ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Newsroom &
-                                            Media</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Press News</a></li>
-                                    <li><a class="dropdown-item" href="#">Product News</a></li>
-                                    <li><a class="dropdown-item" href="#">Media Library</a></li>
-                                    <li><a class="dropdown-item" href="#">Invester News</a></li>
-                                    <li><a class="dropdown-item" href="#">Company Literature</a></li>
-
-                                    <li><a class="dropdown-item mt-5 mb-5 text-primary fw-medium" href="#">KPI's</a>
-                                    </li>
-                                    <hr>
+                                    <h4> <a href="#"> Manufacturing</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#">TR Formac</a></h5>
+                                    <h5><a href="#">TR SFE</a></h5>
+                                    <h5><a href="#"> TR PSEP</a></h5>
+                                    <h5><a href="#">TR VIC</a></h5>
+                                    <h5><a href="#"> Licences</a></h5>
+                                    <h4 class="mt-5"> <a href="#">Quality</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Leadership</a></li>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Logistics</a></h4>
                                     <hr>
-                                    <li><a class="dropdown-item" href="#">The plc board</a></li>
-                                    <li><a class="dropdown-item" href="#">Exicutive Committee</a></li>
-                                    <li><a class="dropdown-item" href="#">Operational Management</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Business Model</a>
-                                    </li>
-                                    <hr>
+                                    <h5><a href="#"> Supply chain optimisation</a></h5>
+                                    <h5><a href="#"> Supply chain solutions</a></h5>
+                                    <h4 class="mt-5"> <a href="#">Trade bodies and associations</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Documentaion and
-                                            Policies</a></li>
-                                    <hr>
+                                <div class="col-md-3  ">
 
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Acquasitions</a></li>
-                                    <hr>
 
+                                    <h4> <a href="#"> Sourcing</a></h4>
+                                      <hr class="main-line" >
+                                    <h5><a href="#">Product line card</a></h5>
                                 </div>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#">Technical support services</a></h4>
+                                      <hr class="main-line" >
+                                </div>
+
                             </div>
                         </div>
                     </ul>
-                </li>
 
-                <li class="nav-item dropdown">
+                </li>
+                <li class="nav-item dropdown  ">
                     <a class="nav-link dropdown-toggle" routerLink="/industries" id="navbarDropdown" role="button"
                         aria-expanded="false">
-                        Industries
+                        Indutries
                     </a>
-                    <ul class="dropdown-menu five" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu three shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
                         <div class="container-fluid">
-                            <div class="row  mt-4">
+                            <div class="row  ">
                                 <div class="col-md-3  ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Newsroom &
-                                            Media</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">Press News</a></li>
-                                    <li><a class="dropdown-item" href="#">Product News</a></li>
-                                    <li><a class="dropdown-item" href="#">Media Library</a></li>
-                                    <li><a class="dropdown-item" href="#">Invester News</a></li>
-                                    <li><a class="dropdown-item" href="#">Company Literature</a></li>
-
-                                    <li><a class="dropdown-item mt-5 mb-5 text-primary fw-medium" href="#">KPI's</a>
-                                    </li>
+                                    <h4> <a href="#"> Light vehicle</a></h4>
+                                      <hr class="main-line" >
+                                    <h4 class="mt-5"> <a href="#">Heavy vehicle</a></h4>
                                     <hr>
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Leadership</a></li>
-                                    <hr>
-                                    <li><a class="dropdown-item" href="#">The plc board</a></li>
-                                    <li><a class="dropdown-item" href="#">Exicutive Committee</a></li>
-                                    <li><a class="dropdown-item" href="#">Operational Management</a></li>
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Business Model</a>
-                                    </li>
-                                    <hr>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Health & home</a></h4>
+                                      <hr class="main-line" >
+                                    <h4 class="mt-5"> <a href="#"> Energy, tech & infrastructure</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Documentaion and
-                                            Policies</a></li>
-                                    <hr>
-
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#">General industrial</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Acquasitions</a></li>
-                                    <hr>
-
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#">Distributors</a></h4>
+                                      <hr class="main-line" >
                                 </div>
+
                             </div>
                         </div>
                     </ul>
+
                 </li>
 
-                <li class="nav-item dropdown">
+
+                <li class="nav-item dropdown  ">
                     <a class="nav-link dropdown-toggle" routerLink="/sustainability" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                        aria-expanded="false">
                         Sustainability
                     </a>
-                    <ul class="dropdown-menu six" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu six shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
                         <div class="container-fluid">
-                            <div class="row  mt-4">
+                            <div class="row  ">
                                 <div class="col-md-3  ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Newsroom &
-                                            Media</a></li>
-                                    <hr>
-                               
-
-                                    <li><a class="dropdown-item mt-5 mb-5 text-primary fw-medium" href="#">KPI's</a>
-                                    </li>
-                                    <hr>
+                                    <h4> <a href="#">Sustainability governance</a></h4>
+                                      <hr class="main-line" >
+                                    <h4 class="mt-5"> <a href="#">Create socio-economic value</a></h4>
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Leadership</a></li>
-                                    <hr>
-                                
-
-                                    <li><a class="dropdown-item mt-5 text-primary fw-medium" href="#">Business Model</a>
-                                    </li>
-                                    <hr>
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Environment and climate</a></h4>
+                                      <hr class="main-line" >
+                                    <h4 class="mt-5"> <a href="#"> Sustainable supply chain</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Documentaion and
-                                            Policies</a></li>
-                                    <hr>
-
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Sustainable innovation</a></h4>
+                                      <hr class="main-line" >
                                 </div>
-                                <div class="col-md-3 ">
-                                    <li><a class="dropdown-item text-primary fw-medium" href="#">Acquasitions</a></li>
-                                    <hr>
-
+                                <div class="col-md-3  ">
+                                    <h4> <a href="#"> Analysis tool - sustainability</a></h4>
+                                      <hr class="main-line" >
                                 </div>
+
                             </div>
                         </div>
                     </ul>
-                </li>
 
-                <li class="nav-item dropdown">
+                </li>
+                <li class="nav-item dropdown " id="contact">
                     <a class="nav-link dropdown-toggle" routerLink="/contact" id="navbarDropdown" role="button"
                         aria-expanded="false">
                         Contact
                     </a>
-                    <ul class="dropdown-menu seven" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu seven shadow p-3 mb-5 bg-body-white" aria-labelledby="navbarDropdown">
+                        <div class="container-fluid">
+                            <div class="row  ">
+                                <div class="col-md-3  ">
+
+                                    <h4 class="mt-5"> <a routerLink="/contact">Contact</a></h4>
+                                      <hr class="main-line" >
+                                </div>
+
+
+                            </div>
+                        </div>
                     </ul>
+
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">search</a>
+                </li> -->
 
 
-                <li class="nav-item" id="search">
-                    <a class="nav-link" routerLink="/search"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i></a>
-                </li>
             </ul>
 
 
-            <form class="d-flex mb-5  " role="search">
-                <div class="idea d-flex">
-                    <div class="bookmark me-3 "> <a href="#">Bookmark this</a></div>
-                    <div class="image mx-2">
-                        <img src="https://trfastenings.blob.core.windows.net/sitecontent/2604c4e121f5483eb5ed983dcee78b0e.svg"
-                            class="img-thumbnail" alt="...">
-                    </div>
 
-                    <div class="text">
-                        <h4> LON: 71.00 GBX</h4>
-                        <h3></h3>
-                        <h5 class="mx-5">CAREERS
-                            <!-- <hr class="line"> -->
-                        </h5>
-
-                    </div>
-                    <div class="icons d-flex mx-4">
-                        <span><i class="fa-solid fa-clipboard fa-xl" style="color: #0d2959;"></i></span>
-                        <span><i routerLink="/register" class="fa-solid fa-user fa-xl mx-5"
-                                style="color: #062356;"></i></span>
-                    </div>
-                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button> -->
+            <div class="menus  me-5">
+                <div class="bookmark ">
+                    <p>Bookmark</p>
                 </div>
-                <hr class="line">
-            </form>
+                <div class="img mx-3 ">
+                    <img src="https://trfastenings.blob.core.windows.net/sitecontent/2604c4e121f5483eb5ed983dcee78b0e.svg"
+                        class="img-thumbnail" alt="...">
+                </div>
+                <div class="label d-flex mx-2 mt-4">
+                    <p class="mt-1 with-line">
+                        LON: 70.80 GBX &nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <h5 class="mx-4">CAREERS</h5>
+                    <div class="icon">
+                        <span><i class="fa-solid fa-clipboard fa-xl mt-4" style="color: blue;"></i></span>
 
+
+                    </div>
+                    <div class="user">
+                        <span><i class="fa-regular fa-user fa-xl mx-5 mt-4" style="color: blue;" routerLink="/register"></i></span>
+                        <hr class="ruler mt-2">
+                    </div>
+                </div>
+
+
+            </div>
         </div>
+      
     </div>
+    
 </nav>
