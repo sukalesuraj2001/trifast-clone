@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.products img{
+    width: 98%;
+
+}
 
 
 .accordians{
@@ -193,7 +197,7 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
 
     margin-top: 2rem;
 }
-.dropdown-menu h4 a{
+.dropdown-menu h4 a {
     font-weight: 500;
     color: #28348a;
     font-size: 1.2rem;
@@ -212,6 +216,11 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
 .dropdown-menu h5 a:hover{
    
     text-decoration: underline;
+}
+.products h5 a{
+    color: #28348a;
+    font-weight: 500;
+
 }
 
 
@@ -301,9 +310,6 @@ right: calc(((100% - 1550px)/2) + 115px ) !important;
     margin: 0;
     padding: 0;
   
-}
-.bolder-text{
-    /* font-weight: 500; */
 }
 
 
